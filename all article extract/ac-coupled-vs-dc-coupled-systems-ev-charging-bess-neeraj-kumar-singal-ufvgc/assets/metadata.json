@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://www.linkedin.com/pulse/ac-coupled-vs-dc-coupled-systems-ev-charging-bess-neeraj-kumar-singal-ufvgc/",
+  "title": "AC-Coupled vs DC-Coupled Systems for EV Charging with BESS",
+  "author": {
+    "name": "Neeraj Kumar Singal",
+    "url": "https://in.linkedin.com/in/nksingal",
+    "avatarUrl": "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM"
+  },
+  "publishedDate": "Aug 14, 2025",
+  "downloadedImages": {
+    "https://media.licdn.com/dms/image/v2/D5612AQE8Xf_R5BZa6w/article-cover_image-shrink_720_1280/B56ZijNyGCHMAI-/0/1755084963601?e=2147483647&v=beta&t=30vE-Iteum6kHJZ7T4dQ6cFkz8rHVaX3v4_NkXWut9o": "images/cover.png",
+    "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM": "images/author-avatar.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFG_HqAa00DCA/article-inline_image-shrink_400_744/B56ZiiwI_NG4Ac-/0/1755077187011?e=2147483647&v=beta&t=sXkDA-RdMiq0uj4hffatCu7A1H6pdFMYvzvF9rOR5YY": "images/image-003-e6e1a750.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQEs3XnhVv-RCA/article-inline_image-shrink_400_744/B56Zii1ItAHMAY-/0/1755078496048?e=2147483647&v=beta&t=d-TX3kmXVFocAPRKpd-IBtfterzjhnLswakjpduCl0k": "images/image-004-28feb8e7.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHtpbWHTBXrgA/article-inline_image-shrink_1500_2232/B56ZiiymgjHUAY-/0/1755077831253?e=2147483647&v=beta&t=oZe4F-0OXuQfbne_Hg7qayWDZw2jSdcP1guYKvl6sIU": "images/image-005-51b0ec77.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFiu-WBqOvODg/article-inline_image-shrink_400_744/B56Zii1XskHkAY-/0/1755078557114?e=2147483647&v=beta&t=xTtnFovrEeKRWJ-xT3I2CFHi5JOv4SXtyp-n5uxfHio": "images/image-006-af745955.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQF9kpzS0vtf8A/article-inline_image-shrink_400_744/B56Zii23R4H0AY-/0/1755078948686?e=2147483647&v=beta&t=CJvPRdaJ-aqwqzm4kLmAczTYPle0jNnjsH2FxJCXOsg": "images/image-007-ae9aafda.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFNeEh81quKpg/article-inline_image-shrink_1000_1488/B56Zii4kvoG0AQ-/0/1755079397406?e=2147483647&v=beta&t=_1KTRpZ59QrZLppo7XXEXwp0cPEhoyiFQ_sztDmIOYk": "images/image-008-a24d8660.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGIG97NYjza-g/article-inline_image-shrink_1500_2232/B56Zii3.cqHcAU-/0/1755079243435?e=2147483647&v=beta&t=kzR2JP3G_NTPVmEioZMs8r7dqZGn1TbuhvgjXmn5ZlY": "images/image-009-244acf17.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGebLmKIyHS9A/article-inline_image-shrink_1000_1488/B56Zii5cHKHMAQ-/0/1755079624385?e=2147483647&v=beta&t=kcOlGlUnHSYwx8z3ovBb4f9pjNIPkqFgkhXgDY7p3ho": "images/image-010-0bee5f50.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFQsl2g1_LsVA/article-inline_image-shrink_400_744/B56Zii7wZGHkAY-/0/1755080236583?e=2147483647&v=beta&t=KW6BKkpYgcDiYNFE5nSw84lr-9AzOuEbZzdJgs_O0So": "images/image-011-f37b14d4.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE4mLMh6HZ7OA/article-inline_image-shrink_1500_2232/B56ZijCWIOHcAY-/0/1755081959185?e=2147483647&v=beta&t=F6lFioNOIrKxF3ZK4vb3e0NHZB3qlybiZHoyzkNqkn4": "images/image-012-460f48e5.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHaIdeieX5ChA/article-inline_image-shrink_1500_2232/B56ZijCCT7HMAU-/0/1755081880535?e=2147483647&v=beta&t=gW2_EFUSPK9CqJZKujVG-yd561d-V2rLCfb_WeBeQUQ": "images/image-013-c8c85be7.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQF0z35uCKKTOA/article-inline_image-shrink_1500_2232/B56ZijCM.fG4AU-/0/1755081923757?e=2147483647&v=beta&t=EZu-48sQAUzB5O1R-Nwvu3hYYKXdIFr__FgseU0-hfA": "images/image-014-9a185aab.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGwWpsao2jNdw/article-inline_image-shrink_400_744/B56ZijDYDSG4AY-/0/1755082228604?e=2147483647&v=beta&t=jvffIH0U7VNGTcEjNTStUbtGmj6F4vA3bMsySgqNQXk": "images/image-015-23797704.png"
+  },
+  "generatedAt": "2026-05-22T04:57:04.337Z"
+}

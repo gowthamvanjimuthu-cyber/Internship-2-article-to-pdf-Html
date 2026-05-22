@@ -1,0 +1,335 @@
+/* LinkedIn Pulse Article — duplicate styling */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #f3f2ef;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #004182;
+}
+
+.global-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.global-nav__inner {
+  display: flex;
+  align-items: center;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 52px;
+}
+
+.global-nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 24px 24px 48px;
+}
+
+.pulse-article {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  max-width: 744px;
+  margin: 0 auto;
+  padding: 0 0 32px;
+  overflow: hidden;
+}
+
+.cover-image {
+  margin: 0;
+  width: 100%;
+}
+
+.cover-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.pulse-article > .pulse-article__actions,
+.pulse-article > .article-author,
+.pulse-article > .pulse-article__title,
+.pulse-article > .pulse-article__body,
+.pulse-article > .engagement-bar {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.pulse-article > .pulse-article__actions {
+  padding-top: 24px;
+}
+
+.pulse-article__actions {
+  margin-bottom: 8px;
+}
+
+.report-link {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.article-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.article-author__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.article-author__avatar-fallback {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #0a66c2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-author__name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.article-author__name a {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.article-author__date {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-follow {
+  padding: 6px 16px;
+  border: 1px solid #0a66c2;
+  border-radius: 24px;
+  background: transparent;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.pulse-article__title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 24px;
+}
+
+.pulse-article__body {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.article-block p {
+  margin: 0 0 24px;
+}
+
+.article-block h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 32px 0 16px;
+}
+
+.article-block h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 28px 0 12px;
+}
+
+.article-block ul {
+  margin: 0 0 24px;
+  padding-left: 24px;
+}
+
+.article-block li {
+  margin-bottom: 8px;
+}
+
+.article-figure {
+  margin: 16px 0 24px;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.pulse-article__divider {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 32px;
+}
+
+.author-card {
+  display: flex;
+  gap: 16px;
+  padding: 16px 32px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.author-card__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.author-card__avatar-fallback {
+  display: flex;
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+  background: #0a66c2;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.author-card__name {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.author-card__badge {
+  margin-left: 6px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.author-card__headline {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.author-card__followers {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.social-follow {
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.social-follow__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.social-follow__sep {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 4px;
+}
+
+.engagement-bar {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 16px;
+  padding: 8px 32px 0;
+}
+
+.engagement-bar__btn {
+  background: none;
+  border: none;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+  .pulse-article > .pulse-article__actions,
+  .pulse-article > .article-author,
+  .pulse-article > .pulse-article__title,
+  .pulse-article > .pulse-article__body,
+  .pulse-article > .engagement-bar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pulse-article__title {
+    font-size: 24px;
+  }
+
+  .pulse-article__body {
+    font-size: 18px;
+  }
+}

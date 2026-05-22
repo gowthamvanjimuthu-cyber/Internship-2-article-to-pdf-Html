@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How is Degradation modeled in BESS and how do you plan Augmentation over 10–15 years?</title>
+  <meta name="description" content="The transition of the global energy landscape toward a high-penetration renewable grid has elevated Battery Energy Storage Systems (BESS) from niche ancillary service assets to fundamental pillars of grid reliability and flexibility. As capacity in markets like the United States is projected to surp">
+  <meta property="og:title" content="How is Degradation modeled in BESS and how do you plan Augmentation over 10–15 years?">
+  <meta property="og:description" content="The transition of the global energy landscape toward a high-penetration renewable grid has elevated Battery Energy Storage Systems (BESS) from niche ancillary service assets to fundamental pillars of grid reliability and flexibility. As capacity in markets like the United States is projected to surp">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="canonical" href="https://www.linkedin.com/pulse/how-degradation-modeled-bess-do-you-plan-augmentation-singal-hhi5c/">
+</head>
+<body>
+  <header class="global-nav" role="banner">
+    <div class="global-nav__inner">
+      <a class="global-nav__logo" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 21" width="84" height="21" aria-hidden="true">
+          <path fill="#0a66c2" d="M62.5 0h-6.3v14.9h6.3V0zm-3.2 16.9c-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6-1.6-3.6-3.6-3.6zM20.1 0H8.6v21h11.5V0zM0 0v21h8.6V0H0zm57.3 8.1c-4.5 0-7.3 3-7.3 7.7V21h6.3v-4.8c0-2.2 1.4-3.5 3.4-3.5 2 0 3.2 1.3 3.2 3.5V21H84v-5.2c0-4.7-2.8-7.7-7.3-7.7-2.5 0-4.2 1.1-5.2 2.6h-.2V8.1h-6.3v12.9h6.3V15c0-2.2 1.2-3.5 3-3.5 1.9 0 3 1.3 3 3.5v5.9h6.4V14.3c0-4.5-2.7-6.2-6.7-6.2z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <article class="pulse-article">
+      <figure class="cover-image"><img src="assets/images/cover.png" alt="How is Degradation modeled in BESS and how do you plan Augmentation over 10–15 years?"></figure>
+      <div class="pulse-article__actions">
+        <span class="report-link">Report this article</span>
+      </div>
+
+      <header class="article-author">
+        <a href="https://in.linkedin.com/in/nksingal" class="article-author__avatar-link" target="_blank" rel="noopener noreferrer">
+          <img class="article-author__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+        </a>
+        <div class="article-author__info">
+          <h2 class="article-author__name">
+            <a href="https://in.linkedin.com/in/nksingal" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+          </h2>
+          <time class="article-author__date">Published Mar 14, 2026</time>
+        </div>
+        <a href="https://in.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">+ Follow</a>
+      </header>
+
+      <h1 class="pulse-article__title">How is Degradation modeled in BESS and how do you plan Augmentation over 10–15 years?</h1>
+
+      <div class="pulse-article__body">
+        <div class="article-block"><p>
+          The transition of the global energy landscape toward a high-penetration renewable grid has elevated Battery Energy Storage Systems (BESS) from niche ancillary service assets to fundamental pillars of grid reliability and flexibility. As capacity in markets like the United States is projected to surpass 170 GW by 2030, the technical management of these assets over a 10–15-year operational horizon becomes the primary driver of project finance and long-term viability.
+        </p></div>
+<div class="article-block"><p>
+          This report provides an exhaustive analysis of degradation mechanisms, mathematical modeling paradigms, and technical augmentation pathways required to sustain utility-scale BESS performance across a decade or more of operation.
+        </p></div>
+<div class="article-block"><h3>Electrochemical Mechanisms and the Genesis of Degradation</h3></div>
+<div class="article-block"><p>
+          Battery degradation in lithium-ion systems is an inevitable byproduct of operational chemistry, manifesting as capacity fade and resistance growth. These phenomena are categorized into two concurrent pathways: calendar aging and cycle aging, each driven by distinct environmental and operational stressors.
+        </p></div>
+<div class="article-block"><h3>Calendar Aging and the Solid Electrolyte Interphase</h3></div>
+<div class="article-block"><p>
+          Calendar aging represents the degradation that occurs while the battery is at rest, independent of charge or discharge cycles. The primary driver is the chemical instability at the interface between the electrode and the electrolyte. In lithium-ion cells, the formation of the Solid Electrolyte Interphase (SEI) layer on the anode is a critical initial process.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-003-48563cac.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          The rate of calendar aging is exponentially sensitive to temperature and linearly influenced by the battery’s state of charge (SOC). Higher temperatures accelerate the kinetics of the side reactions that thicken the SEI layer, while high SOC levels increase the chemical potential difference at the interface, further driving electrolyte decomposition. Research indicates that storing cells at 60°C leads to significantly more severe degradation than at 50°C, illustrating the non-linear impact of thermal stress.
+        </p></div>
+<div class="article-block"><h3>Cycle Aging and Mechanical Strain</h3></div>
+<div class="article-block"><p>
+          Cycle aging occurs during the active transport of lithium ions between the cathode and anode. Every cycle induces mechanical and chemical stress on the electrode materials. Repeated mechanical stress causes the SEI layer to crack, exposing fresh reactive surfaces to the electrolyte, which in turn leads to further SEI formation and additional lithium consumption. 
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-004-ec3196fa.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Furthermore, at high charge rates or low temperatures, lithium plating can occur on the anode surface, where lithium ions form metallic lithium rather than intercalating into the electrode structure. This process not only reduces capacity but can also lead to internal short circuits if dendrites penetrate the separator.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-005-469a434b.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Hierarchical Modeling Paradigms: Accuracy vs. Complexity</h3></div>
+<div class="article-block"><p>
+          BESS planners select from three primary categories of degradation models, each offering a different trade-off between computational burden and predictive precision.
+        </p></div>
+<div class="article-block"><h3>Physics-Based and Electrochemical Models</h3></div>
+<div class="article-block"><p>
+          Physics-based models, such as one-dimensional (1D) or pseudo-2D electrochemical models, describe the internal dynamics of lithium-ion transport, porous electrode kinetics, and concentrated solution theory. These models are stable across a wide range of operating conditions and can achieve error rates of less than 10%. However, they are computationally intensive—up to 4,000 times slower than semi-empirical models—and require extensive proprietary data for parameterization, making them less suitable for the fast-paced simulations required in grid-scale techno-economic analysis.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-006-a106aaf1.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Semi-Empirical and Reduced-Order Models</h3></div>
+<div class="article-block"><p>
+          Semi-empirical models are the current industry standard for long-term project planning. They combine algebraic equations with accelerated aging test data to fit specific degradation trends. While they are highly efficient and easy to implement in financial modeling tools like SAM or SimSES, their accuracy is limited to the conditions of the calibration dataset. Operating outside these boundaries can result in errors as high as 60% in capacity loss prediction.
+        </p></div>
+<div class="article-block"><h3>Machine Learning and Physics-Informed Neural Networks (PINNs)</h3></div>
+<div class="article-block"><p>
+          The advent of large datasets from operating BESS installations has fueled the rise of data-driven models. Neural networks, such as Long Short-Term Memory (LSTM) networks, are used to capture complex, non-linear degradation dynamics that traditional algebraic models might miss. Physics-Informed Neural Networks (PINNs) further enhance this by embedding governing electrochemical equations within the neural network structure, ensuring that the model’s predictions remain physically plausible even when data is sparse. Studies by NREL have shown that machine-learning-assisted models can reduce life-prediction uncertainty by more than a factor of three compared to traditional expert-derived models.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-007-bdffe682.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Model CategoryComputational ComplexityAccuracyGeneralizabilityPrimary ApplicationPhysics-BasedVery HighVery HighExcellentCell design, advanced BMSSemi-EmpiricalLowModerateLimited to datasetFinancial proformas, planningMachine LearningModerateHighData-dependentReal-time monitoring, O&amp;MEmpiricalVery LowLowPoorEarly-stage screening
+        </p></div>
+<div class="article-block"><h3>Operational Impact: Climate and Market Dynamics</h3></div>
+<div class="article-block"><p>
+          The actual degradation observed in a 10–15-year project is heavily influenced by the geographic location and the primary revenue stack of the asset.
+        </p></div>
+<div class="article-block"><h3>Tropical Climate Stress: The Thailand Case Study</h3></div>
+<div class="article-block"><p>
+          A detailed study of grid-scale BESS in Thailand revealed that high ambient temperatures can increase capacity degradation rates by 20–60% compared to optimal conditions. Over a 10-year period, capacity declined to 80% at 25°C but dropped to 40% at the highest operating temperature ranges. This discrepancy highlights the necessity of climate-aware modeling, where temperature data is classified into ranges (e.g., &lt;30°C, 30–55°C, and &gt;55°C) to identify specific degradation patterns and optimize thermal management strategies.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-008-da213839.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Market-Driven Duty Cycles</h3></div>
+<div class="article-block"><p>
+          The frequency and depth of cycling are dictated by the electricity market in which the BESS operates. In the CAISO (California) market, four-hour duration systems are prevalent to meet Resource Adequacy (RA) requirements and help manage the evening demand ramp. These systems typically undergo deep daily cycles, accelerating cycle aging. In contrast, the ERCOT (Texas) market historically favored one- to two-hour systems optimized for high-frequency ancillary services and price volatility, which may involve many shallow cycles but higher power-to-energy (P:E) stress.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-009-252d4232.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Strategic Augmentation Planning for 10–15 Years</h3></div>
+<div class="article-block"><p>
+          Maintaining the nameplate capacity of a BESS over its 15-year lifecycle requires a proactive augmentation strategy. Augmentation is the systematic addition of new battery modules or racks to offset capacity fade and ensure the system meets its contractual obligations.
+        </p></div>
+<div class="article-block"><h3>Upfront Overbuild vs. Staged Augmentation</h3></div>
+<div class="article-block"><p>
+          Developers must evaluate the economic trade-offs between installing excess capacity initially (overbuild) and planning for periodic additions (augmentation).
+        </p></div>
+<div class="article-block"><h3>Initial Overbuild</h3></div>
+<div class="article-block"><p>
+          An initial overbuild involves installing more batteries upfront than are required to meet year-one demand.
+        </p></div>
+<div class="article-block"><p>
+          Advantages: Simplifies project execution by removing the need for future site mobilization, labor, and re-permitting. It locks in capital expenditures at the start, providing certainty for project financing.
+        </p></div>
+<div class="article-block"><p>
+          Disadvantages: Higher initial CAPEX for capacity that will not be fully utilized for years. It also risks underperforming if the degradation rate is lower than expected, leading to stranded capacity that was paid for but never needed.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-010-f906af11.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Staged Augmentation (Designed to Augment)</h3></div>
+<div class="article-block"><p>
+          Staged augmentation involves a lean and mean initial build, with physical space and electrical infrastructure prepared for future battery additions.
+        </p></div>
+<div class="article-block"><p>
+          Advantages: Defers CAPEX, improving the projects Internal Rate of Return (IRR). It allows developers to exploit the declining costs of lithium-ion batteries—which are projected to continue falling by approximately 6% annually post-2025. Furthermore, it enables the integration of newer, more efficient battery technologies as they become commercially available.
+        </p></div>
+<div class="article-block"><p>
+          Disadvantages: Increased technical complexity in integrating old and new batteries. There is also a risk of manufacturing constraints or shifts in building codes and fire standards (e.g., NFPA 855) that could make future integration more difficult or expensive.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-011-7c94ec25.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Technical Pathways: AC vs. DC Augmentation</h3></div>
+<div class="article-block"><p>
+          The engineering approach to augmentation is divided into two primary methods: Alternating Current (AC) and Direct Current (DC) pathways.
+        </p></div>
+<div class="article-block"><h3>AC Augmentation: The "New Block" Solution</h3></div>
+<div class="article-block"><p>
+          AC augmentation involves adding a completely independent battery system—including its own battery racks, inverters (PCS), and controls—to the common AC bus of the project.
+        </p></div>
+<div class="article-block"><p>
+          Mechanism: The new batteries are connected after the existing inverters. This means the original system remains unchanged.
+        </p></div>
+<div class="article-block"><p>
+          Benefits: It is highly modular and flexible, making it ideal for retrofitting existing sites without significant downtime. It also allows for the integration of different battery chemistries (e.g., adding a sodium-ion block to an existing LFP site) since the systems are decoupled at the AC level.
+        </p></div>
+<div class="article-block"><p>
+          Drawbacks: It is more costly because it requires additional power conversion equipment and transformers. It also requires more physical footprint and may trigger a lengthy re-permitting process because new grid-connected hardware is being added.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-012-f03b6993.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>DC Augmentation: The "In-Rack" Solution</h3></div>
+<div class="article-block"><p>
+          DC augmentation adds new battery modules or racks directly to the existing DC bus, sharing the existing inverters.
+        </p></div>
+<div class="article-block"><p>
+          Mechanism: New capacity is added before the inverter. This can be done via DC Direct connection or DC Shuffling.
+        </p></div>
+<div class="article-block"><p>
+          Benefits: It is more cost-effective and space-saving, as it utilizes the existing power conversion infrastructure. Because there are technically no new grid connections, it can often bypass the complex permitting process required for AC additions.
+        </p></div>
+<div class="article-block"><p>
+          Drawbacks: The primary hurdle is the heterogeneity between new and old batteries. New cells have lower internal resistance and higher voltage profiles than aged ones. Connecting them in parallel can cause the new, robust batteries to compensate for the older ones, leading to dangerous current imbalances, inefficient cycling, and accelerated wear on the new units.
+        </p></div>
+<div class="article-block"><h3>Technological Solutions for Voltage Mismatch</h3></div>
+<div class="article-block"><p>
+          To overcome the challenges of DC augmentation, the industry has adopted advanced power electronics that act as buffers between heterogeneous battery strings.
+        </p></div>
+<div class="article-block"><h3>DC-DC Converters and String Optimizers</h3></div>
+<div class="article-block"><p>
+          DC-DC converters, such as those produced by Dynapower (e.g., DPS-500, DPS-1000), are bi-directional building blocks that interface the battery energy storage with the DC bus of a central inverter. These converters enable on-the-fly switching between voltage, current, and power control modes, allowing them to manage the precise output of a battery rack regardless of its state of health.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-013-64e989c1.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          String optimizers, such as those from Ampt or Alencon, perform Maximum Power Point Tracking (MPPT) or voltage mapping at the string level. These devices (e.g., Ampt i50, Alencon SPOT) allow new and old battery strings to operate at their optimal voltage levels while delivering power to a common DC bus at a fixed voltage set by the main inverter. This Direct-to-Battery or Direct-to-Converter technology eliminates the mismatch losses that would otherwise occur when mixing battery generations, potentially saving up to 25% on electrical Balance of System (BOS) costs and increasing overall energy yield.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-014-ef6e69f8.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Galvanic Isolation and Safety</h3></div>
+<div class="article-block"><p>
+          Advanced optimizers also incorporate galvanic isolation, which prevents reverse bias from being injected into a PV array or an older battery string in a hybrid setup. This is particularly critical in DC-coupled solar+storage systems where the DC bus is shared between the generation and storage assets. By isolating the strings, the system can maintain safety and reliability even as the individual components age at different rates.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-015-d3df5db8.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Economic Evaluation: LCOS and Price Learning Curves</h3></div>
+<div class="article-block"><p>
+          The economic allure of augmentation is strengthened by the historical and projected decline in lithium-ion prices.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-016-1ead99dc.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          The transition to a commodity-clearing regime post-2025 implies that battery prices will converge toward manufacturing and material floors, with competition between manufacturers like CATL, BYD, and EVE keeping margins thin. For a BESS developer planning a 15-year project in 2025, these curves suggest that augmenting capacity in year 5 or 10 will be materially cheaper than oversizing at the projects inception.
+        </p></div>
+<div class="article-block"><h3>Software Solutions for BESS Asset Management</h3></div>
+<div class="article-block"><p>
+          Navigating the intersection of technical degradation and market optimization requires sophisticated software tools that can model complex scenarios and provide lender-grade financial forecasts.
+        </p></div>
+<div class="article-block"><h3>Simulation and Techno-Economic Tools</h3></div>
+<div class="article-block"><ul>
+        
+    <li>
+      <a href="https://no.linkedin.com/company/dnv?trk=article-ssr-frontend-pulse_little-mention">DNV</a>
+   HERO (Hybrid Energy Resource Optimizer): HERO provides market-aware dispatch strategies that honor throughput and interconnection constraints. Its Constraint Designer allows users to set specific cycling caps, and its shadow price lever ensures the battery only cycles if the return exceeds a calculated degradation hurdle rate.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-017-218e55d4.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ul>
+        
+    <li>
+      <a href="https://www.linkedin.com/showcase/homer-microgrid-news/?trk=article-ssr-frontend-pulse_little-mention">HOMER Microgrid News</a>
+  : Built on the kinetic battery model, it considers temperature effects on capacity and lifetime, optimizing hybrid systems for technical performance and NPV.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-018-1823b3cc.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ul>
+        
+    <li>Energy Toolbase: This platform is widely used for C&amp;I projects, providing accurate bill-savings simulations and AI-driven optimal discharge strategies for demand charge management and arbitrage.</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><h3>Standards and Regulatory Compliance for Lifecycle Planning</h3></div>
+<div class="article-block"><p>
+          A 10–15 year augmentation plan must also account for evolving safety and grid-connection standards.
+        </p></div>
+<div class="article-block"><h3>Grid-Interconnection: IEEE 2800</h3></div>
+<div class="article-block"><p>
+          The IEEE 2800-2022 standard defines performance criteria for inverter-based resources (IBRs) like BESS. It requires that systems remain connected and support grid stability during voltage and frequency disturbances. For augmentation, this means that any new inverters or PCS added during the projects life must be compliant with the latest frequency ride-through (FRT) and voltage ride-through (VRT) requirements. Models used for compliance analysis (e.g., PSSE or PSCAD) must be validated against actual field behavior under transient conditions.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-019-e6e1c9ae.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Safety and Fire Protection: UL and NFPA</h3></div>
+<div class="article-block"><p>
+          Safety standards have increasingly standardized to mitigate risks like thermal runaway and fire propagation.
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>UL 9540: Covers the safety of integrated energy storage systems and equipment.</li>
+    <li>UL 9540A: Provides the test method for evaluating thermal runaway fire propagation.</li>
+    <li>NFPA 855: The standard for the installation of stationary BESS, which influences spatial separation and fire suppression requirements.</li>
+    <li>IEEE 2686-2024: A recently published recommended practice for Battery Management Systems (BMS) in stationary applications, establishing best practices for hardware and software architectures that protect battery longevity and safety.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-020-e07b15b8.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Emerging Trends</h3></div>
+<div class="article-block"><p>
+          Looking beyond 2030, the field of BESS degradation management will be shaped by several emerging trends. The shift from NMC to LFP is already nearly complete in the utility-scale segment, but the first waves of sodium-ion projects are approaching commercialization. 
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-021-90158b61.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          While currently lacking long-term field data, sodium-ion offers potential cost resilience and improved safety at low temperatures. Furthermore, the evolution of hybrid energy storage systems (HESS), which combine high-capacity BESS with high-power assets like superconducting magnetic energy storage (SMES) or flywheels, could allow for better management of rapid power fluctuations, potentially shielding the main battery stack from the high-P:E stress that accelerates cycle aging.
+        </p></div>
+<hr class="pulse-article__divider">
+
+    <footer class="author-card">
+      <a href="https://www.linkedin.com/in/nksingal" class="author-card__avatar-link" target="_blank" rel="noopener noreferrer">
+        <img class="author-card__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+      </a>
+      <div class="author-card__content">
+        <div class="author-card__header">
+          <div>
+            <a href="https://www.linkedin.com/in/nksingal" class="author-card__name" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+            <span class="author-card__badge">Influencer</span>
+          </div>
+          <a href="https://www.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">Follow</a>
+        </div>
+        <p class="author-card__headline">Founder @ Semco Group, Entrepreneur, Lithium Battery Testing &amp; Assembly Solutions, Electric vehicles, Strategic Planning, Design &amp; Solution of BESS Manufacturing - Pack &amp; Container line, Cell, Pack &amp; Container Testing</p>
+        <p class="author-card__followers">58,813 followers</p>
+      </div>
+    </footer>
+
+    <section class="social-follow">
+      <h3 class="social-follow__title">For More Updates Follow Us</h3>
+      <nav class="social-follow__links" aria-label="Social media links"><a href="https://whatsapp.com/channel/0029VaAQVuiA89MpM5Qh3b0f" target="_blank" rel="noopener noreferrer">WhatsApp</a><span class="social-follow__sep">-</span><a href="https://www.facebook.com/semcouniversity" target="_blank" rel="noopener noreferrer">Facebook</a><span class="social-follow__sep">-</span><a href="https://www.instagram.com/semcouniversity/" target="_blank" rel="noopener noreferrer">Instagram</a><span class="social-follow__sep">-</span><a href="https://x.com/nksingal" target="_blank" rel="noopener noreferrer">Twitter</a><span class="social-follow__sep">-</span><a href="https://www.linkedin.com/in/nksingal/?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="social-follow__sep">-</span><a href="https://www.youtube.com/c/SemcoInfratechPvtLtd?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">YouTube</a></nav>
+    </section>
+      </div>
+
+      <div class="engagement-bar">
+        <button type="button" class="engagement-bar__btn" aria-label="Like">
+          <span>Like (53)</span>
+        </button>
+        <button type="button" class="engagement-bar__btn" aria-label="Comment"><span>Comment</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Repost"><span>Repost</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Send"><span>Send</span></button>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Offline duplicate of <a href="https://www.linkedin.com/pulse/how-degradation-modeled-bess-do-you-plan-augmentation-singal-hhi5c/" target="_blank" rel="noopener noreferrer">LinkedIn Pulse article</a></p>
+  </footer>
+</body>
+</html>

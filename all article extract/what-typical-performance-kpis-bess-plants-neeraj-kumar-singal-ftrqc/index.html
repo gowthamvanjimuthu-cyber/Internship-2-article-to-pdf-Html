@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What are Typical Performance KPIs for BESS Plants?</title>
+  <meta name="description" content="Battery Energy Storage Systems (BESS) are increasingly central to modern power infrastructure—supporting renewable integration, grid stability, and new ancillary service revenue streams. Yet measuring performance goes far beyond tracking a single &quot;availability&quot; number.">
+  <meta property="og:title" content="What are Typical Performance KPIs for BESS Plants?">
+  <meta property="og:description" content="Battery Energy Storage Systems (BESS) are increasingly central to modern power infrastructure—supporting renewable integration, grid stability, and new ancillary service revenue streams. Yet measuring performance goes far beyond tracking a single &quot;availability&quot; number.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="canonical" href="https://www.linkedin.com/pulse/what-typical-performance-kpis-bess-plants-neeraj-kumar-singal-ftrqc/">
+</head>
+<body>
+  <header class="global-nav" role="banner">
+    <div class="global-nav__inner">
+      <a class="global-nav__logo" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 21" width="84" height="21" aria-hidden="true">
+          <path fill="#0a66c2" d="M62.5 0h-6.3v14.9h6.3V0zm-3.2 16.9c-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6-1.6-3.6-3.6-3.6zM20.1 0H8.6v21h11.5V0zM0 0v21h8.6V0H0zm57.3 8.1c-4.5 0-7.3 3-7.3 7.7V21h6.3v-4.8c0-2.2 1.4-3.5 3.4-3.5 2 0 3.2 1.3 3.2 3.5V21H84v-5.2c0-4.7-2.8-7.7-7.3-7.7-2.5 0-4.2 1.1-5.2 2.6h-.2V8.1h-6.3v12.9h6.3V15c0-2.2 1.2-3.5 3-3.5 1.9 0 3 1.3 3 3.5v5.9h6.4V14.3c0-4.5-2.7-6.2-6.7-6.2z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <article class="pulse-article">
+      <figure class="cover-image"><img src="assets/images/cover.png" alt="What are Typical Performance KPIs for BESS Plants?"></figure>
+      <div class="pulse-article__actions">
+        <span class="report-link">Report this article</span>
+      </div>
+
+      <header class="article-author">
+        <a href="https://in.linkedin.com/in/nksingal" class="article-author__avatar-link" target="_blank" rel="noopener noreferrer">
+          <img class="article-author__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+        </a>
+        <div class="article-author__info">
+          <h2 class="article-author__name">
+            <a href="https://in.linkedin.com/in/nksingal" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+          </h2>
+          <time class="article-author__date">Published Apr 14, 2026</time>
+        </div>
+        <a href="https://in.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">+ Follow</a>
+      </header>
+
+      <h1 class="pulse-article__title">What are Typical Performance KPIs for BESS Plants?</h1>
+
+      <div class="pulse-article__body">
+        <div class="article-block"><p>
+          Battery Energy Storage Systems (BESS) are increasingly central to modern power infrastructure—supporting renewable integration, grid stability, and new ancillary service revenue streams. Yet measuring performance goes far beyond tracking a single "availability" number. A world-class BESS plant tracks KPIs across five interlinked domains: energy and capacity, efficiency and performance, availability and reliability, degradation and ageing, safety, and financial returns. Each domain answers a different operational question, and gaps in any one of them can silently erode project economics and grid compliance. This guide provides a structured, engineering-grade walkthrough of every major performance indicator, its calculation methodology, industry benchmarks, and why it matters to operators, EPCs, and asset owners alike.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-003-f6dbb779.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h2>
+            1. Energy &amp; Capacity KPIs
+          </h2></div>
+<div class="article-block"><p>
+          The foundation of BESS performance monitoring begins with understanding exactly how much energy the system can store and deliver. These metrics directly drive revenue capability and contractual compliance.
+        </p></div>
+<div class="article-block"><h3>Rated vs. Usable Capacity</h3></div>
+<div class="article-block"><p>
+          Rated (Nominal) Capacity is the nameplate energy the system is designed to hold, expressed in kWh or MWh. Usable Capacity is always lower—it is the energy available after accounting for depth-of-discharge (DoD) limits and round-trip losses. Specifying "usable capacity" in RFPs rather than nominal capacity is critical to avoid scope ambiguity during procurement.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-004-ddf6d8d2.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Demonstrated Capacity &amp; Capacity Ratio</h3></div>
+<div class="article-block"><p>
+          Defined by the U.S. DOE Federal Energy Management Program (FEMP) and NREL, Demonstrated Capacity is the maximum energy accumulated in the battery over a defined analysis period from actual metered charge and discharge data. It is then normalized against rated capacity to produce the Capacity Ratio:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-005-39ab4d81.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          A ratio persistently below 1.0 signals degradation, thermal derating, or control system inefficiency that needs investigation.
+        </p></div>
+<div class="article-block"><h3>State of Charge (SoC)</h3></div>
+<div class="article-block"><p>
+          SoC is the real-time charge level expressed as a percentage of usable capacity. It is the primary dispatch input for the Energy Management System (EMS)—every charge, discharge, and standby command is conditioned on SoC. SoC accuracy is critical: errors in SoC estimation cascade into incorrect available energy figures and can trigger safety limits unnecessarily or fail to prevent deep discharge damage.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-006-ecda3948.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Depth of Discharge (DoD)</h3></div>
+<div class="article-block"><p>
+          DoD is the fraction of total capacity drawn in a single cycle. There is an inverse and non-linear relationship between DoD and cycle life: batteries cycled at 80% DoD degrade significantly faster than those cycled at 50% DoD. Most lithium iron phosphate (LFP) BESS designs set operational DoD limits of 80–90% to extend calendar life. Tracking the DoD profile histogram over time is a warranty compliance requirement in most Long-Term Service Agreements (LTSAs).
+        </p></div>
+<div class="article-block"><h3>C-Rate</h3></div>
+<div class="article-block"><p>
+          C-rate quantifies the speed of charging or discharging relative to total capacity. A 1C rate fully charges or discharges a battery in one hour; 0.5C takes two hours. Higher C-rates increase internal resistance and heat generation, accelerating degradation and reducing RTE. For Indian BESS projects operating under CERC tariff schedules, C-rate directly determines the power-to-energy ratio that defines whether a project qualifies as a power-oriented (frequency regulation) or energy-oriented (peak-shaving) asset.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-007-234175e0.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h2>
+            2. Efficiency &amp; Performance KPIs
+          </h2></div>
+<div class="article-block"><h3>Round-Trip Efficiency (RTE)</h3></div>
+<div class="article-block"><p>
+          RTE is the single most cited BESS performance metric and directly determines the economics of every kilowatt-hour stored and discharged:
+        </p></div>
+<div class="article-block"><p>
+          RTE&nbsp;(%) = Energy&nbsp;Out&nbsp;(MWh)Energy&nbsp;In&nbsp;(MWh)×100RTE&nbsp;(%) = Energy&nbsp;In&nbsp;(MWh)/Energy&nbsp;Out&nbsp;(MWh)×100
+        </p></div>
+<div class="article-block"><p>
+          RTE aggregates electrochemical losses in the battery cells, conversion losses in the Power Conversion System (PCS), transformer losses, and auxiliary loads such as HVAC and fire suppression. Modern lithium-ion BESS typically achieve 88–94% AC round-trip efficiency under nameplate conditions, though real-world values dip at high-temperature or high-C-rate operation.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-008-3157f25a.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          In India, the CERC has established a normative RTE of 85% for integrated BESS in grid tariff calculations, while the Viability Gap Funding (VGF) scheme references an 80% RTE benchmark in project orders. Even a 2% RTE swing meaningfully alters the Levelized Cost of Storage (LCOS), making accurate RTE monitoring essential for financial model integrity.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-009-e377dd54.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Energy Throughput</h3></div>
+<div class="article-block"><p>
+          Annual energy throughput (MWh/year) measures the total energy the system has discharged across a period. It tracks actual utilization against design assumptions and is the denominator for warranty degradation limits. Throughput data, combined with DoD profiles, feeds directly into battery degradation models.
+        </p></div>
+<div class="article-block"><h3>Equivalent Full Cycles (EFC)</h3></div>
+<div class="article-block"><p>
+          Because real-world dispatch involves frequent partial cycles of varying depth, EFC normalizes all charge and discharge activity into a single lifecycle metric:
+        </p></div>
+<div class="article-block"><p>
+          EFC=Total&nbsp;DC&nbsp;Discharge&nbsp;Throughput&nbsp;(MWh)/Usable&nbsp;DC&nbsp;Energy&nbsp;per&nbsp;Cycle&nbsp;(MWh)
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-010-19849da0.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          EFC is the correct input for degradation models and warranty accounting—simply counting charge/discharge events without normalizing for DoD underestimates wear from deep cycles and overestimates wear from shallow cycles. For finance modeling, a simpler proxy uses total AC MWh sold divided by (MWac × contracted duration hours).
+        </p></div>
+<div class="article-block"><h3>Response Time</h3></div>
+<div class="article-block"><p>
+          Lithium-ion BESS can ramp from standby to full power in milliseconds, outpacing all mechanical storage technologies. However, at plant scale, effective response time is governed by EMS/SCADA communication latency, parallel-unit coordination, and protection relay settings rather than cell chemistry alone. For frequency regulation services—where sub-second Fast Frequency Response (FFR) is increasingly required—the plant-level response time is a contractual KPI that determines market eligibility and revenue.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-011-26ed8e03.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h2>
+            3. Availability &amp; Reliability KPIs
+          </h2></div>
+<div class="article-block"><p>
+          Most BESS plants track a single "availability" percentage, but this obscures four distinct dimensions that each have different blind spots.
+        </p></div>
+<div class="article-block"><h3>The Four Availability Types</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-012-afb89a37.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Overall Battery Effectiveness (OBE)</h3></div>
+<div class="article-block"><p>
+          OBE combines all four availability dimensions into a single composite metric—analogous to OEE (Overall Equipment Effectiveness) in manufacturing—to give a holistic picture of whether the asset is available, responsive, and energetically capable simultaneously. This is emerging as a best-practice KPI for operators managing large BESS portfolios across multiple sites.
+        </p></div>
+<div class="article-block"><h3>System Availability Target</h3></div>
+<div class="article-block"><p>
+          Industry benchmarks and CERC's normative parameters for grid-connected BESS in India set the target System Availability at ≥98% annually, calculated as:
+        </p></div>
+<div class="article-block"><p>
+          Availability&nbsp;(%) = Total&nbsp;Operational&nbsp;Hours−Downtime&nbsp;Hours/Total&nbsp;Operational&nbsp;Hours×100Availability&nbsp;(%)
+        </p></div>
+<div class="article-block"><p>
+          At 98% availability, allowable annual downtime is approximately 175 hours. CERC's Normative Availability Factor (NAPAFess) is set at 90% for tariff purposes under the IEGC 2023, creating a regulatory floor for asset performance in India.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-013-8a7e6006.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h2>
+            4. Degradation &amp; Ageing KPIs
+          </h2></div>
+<div class="article-block"><p>
+          Battery degradation is the most consequential long-term performance variable in BESS projects and must be tracked continuously to protect revenue, warranties, and safety.
+        </p></div>
+<div class="article-block"><h3>State of Health (SoH)</h3></div>
+<div class="article-block"><p>
+          SoH is the ratio of the battery's actual storage capacity to its original nameplate capacity:
+        </p></div>
+<div class="article-block"><p>
+          SoH&nbsp;(%) = Current&nbsp;Usable&nbsp;Capacity/Original&nbsp;Nameplate&nbsp;Capacity×100
+        </p></div>
+<div class="article-block"><p>
+          SoH directly controls usable energy available for dispatch and is the primary input to augmentation planning. While electric vehicle batteries are typically retired at 80% SoH, stationary BESS assets often continue operating down to 60–70% SoH since there is no range anxiety equivalent in grid storage.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-014-4850ce68.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Inaccurate SoH measurement has measurable downstream risks: miscalculated SoC, incorrect revenue forecasting, understated thermal runaway risk as cells approach end-of-life, and invalidation of warranty claims.
+        </p></div>
+<div class="article-block"><h3>Calendar Ageing vs. Cycle Ageing</h3></div>
+<div class="article-block"><p>
+          Degradation has two independent additive mechanisms:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Calendar Ageing — Capacity loss that occurs simply due to elapsed time, driven by high resting SoC, elevated temperature, and electrolyte decomposition. A linear annual degradation rate model applies.</li>
+    <li>Cycle Ageing — Capacity loss proportional to EFC accumulated, accelerated by deep DoD and high C-rates.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-015-fbfaf549.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          BESS plants can lose up to 5% of available energy capacity in the first year and up to 40% over 15 years through combined ageing mechanisms. Both mechanisms must be modeled in parallel when building financial projections and augmentation schedules.
+        </p></div>
+<div class="article-block"><h3>Capacity Retention &amp; Augmentation Triggers</h3></div>
+<div class="article-block"><p>
+          Capacity retention tracks the percentage of original capacity remaining at any point in time. When retention falls below contracted thresholds—typically 80% of original capacity—an augmentation event is triggered, involving replacement or addition of battery modules to restore performance. Projects with well-defined augmentation KPIs and trigger levels protect revenue continuity across the full 15–20-year project life.
+        </p></div>
+<div class="article-block"><h3>5. Safety KPIs</h3></div>
+<div class="article-block"><p>
+          Safety monitoring is not an afterthought—it is an operational necessity. The BMS is the first line of defense for cell-level safety, continuously monitoring the following KPIs:
+        </p></div>
+<div class="article-block"><h3>Critical Safety Metrics</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-016-67c560dc.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Thermal Management Performance</h3></div>
+<div class="article-block"><p>
+          In high-ambient-temperature environments such as India, thermal management is a critical performance enabler. Every 10°C rise in cell operating temperature accelerates degradation. HVAC system KPIs—including Coefficient of Performance (COP), rack inlet temperature, and delta-T across the module—should be tracked as operational performance indicators alongside battery metrics.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-017-1723137a.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>6. Grid Services Performance KPIs</h3></div>
+<div class="article-block"><p>
+          Grid services are the primary revenue source for utility-scale BESS, and each service has its own performance measurement criteria.
+        </p></div>
+<div class="article-block"><h3>Frequency Regulation KPIs</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-018-41a166c4.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Response time and tracking accuracy are particularly important economically: in pay-for-performance frameworks, higher accuracy increases market clearing success and revenue per MW. Grid operators require documented logs of response time, ramp accuracy, sustained output, and recovery behavior for market settlement and compliance verification.
+        </p></div>
+<div class="article-block"><h3>Reactive Power &amp; Voltage Support</h3></div>
+<div class="article-block"><p>
+          Modern PCS units provide reactive power control (Q control) for voltage support at the Point of Interconnection (POI). KPIs include reactive power delivery accuracy, voltage regulation range (±5% of nominal), and power factor compliance under various loading conditions.
+        </p></div>
+<div class="article-block"><h3>India-Specific Grid Compliance KPIs</h3></div>
+<div class="article-block"><p>
+          Under the CEA Technical Standards for Connectivity Amendment 2023 (enforceable from March 2025), BESS projects connecting to the Indian grid must demonstrate compliance in simulation-based studies and field testing:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Normative Availability Factor (NAPAFess): ≥90% per IEGC 2023</li>
+    <li>Normative RTE (RTEess): 85% for tariff calculations</li>
+    <li>Ramp Rate: ±10%/min per CEA mandate</li>
+    <li>Fault Ride-Through (FRT) Capability: Must withstand specified voltage dips without tripping</li>
+    <li>SCADA/Real-time Telemetry: Mandatory data availability to State Load Despatch Centre (SLDC) before grid integration</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-019-d292aee1.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>7. Financial &amp; Commercial KPIs</h3></div>
+<div class="article-block"><p>
+          Operational performance metrics must ultimately translate into financial outcomes. The following KPIs bridge the gap between technical operation and commercial value.
+        </p></div>
+<div class="article-block"><h3>Levelized Cost of Storage (LCOS)</h3></div>
+<div class="article-block"><p>
+          LCOS is widely regarded as the most comprehensive financial benchmark for BESS—it expresses the all-in cost per MWh of energy discharged over the system's lifetime, incorporating CapEx, OpEx, degradation, augmentation, and financing costs. It enables technology comparisons across chemistries and project types on equal footing. As of 2026, BloombergNEF reports that the LCOS for a 4-hour system has fallen below $100/MWh in six major markets, highlighting the rapid cost trajectory.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-020-1ed4a8f3.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Revenue per MWh</h3></div>
+<div class="article-block"><p>
+          Revenue per MWh delivered measures the commercial yield of the asset's energy output. It varies by application—frequency regulation typically commands a premium over energy arbitrage—and fluctuates with market conditions. Operators stacking multiple revenue streams (ancillary services + energy arbitrage + capacity markets) optimize this KPI through advanced dispatch algorithms.
+        </p></div>
+<div class="article-block"><h3>Key Financial Performance Metrics</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-021-ca90a03f.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>8. Integrated KPI Dashboard: Reference Framework</h3></div>
+<div class="article-block"><p>
+          A mature BESS operations framework tracks KPIs across all five domains in a unified dashboard. The table below provides a reference-level summary with typical benchmarks.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-022-462c9af2.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Conclusion</h3></div>
+<div class="article-block"><p>
+          High-performance BESS operation demands that teams move beyond a single headline metric and instead manage a structured portfolio of KPIs spanning capacity, efficiency, availability, degradation, safety, grid compliance, and financial performance. Each KPI domain informs a different decision: SoH drives augmentation scheduling; RTE shapes dispatch strategy and tariff calculations; availability metrics trigger O&amp;M escalations; safety KPIs enable early thermal event intervention; and LCOS frames investment and re-contracting decisions.
+        </p></div>
+<div class="article-block"><p>
+          For BESS projects in India, the regulatory overlay adds further specificity: CERC's normative 85% RTE and 90% NAPAFess, CEA's ±10%/min ramp rate mandate, and the CEA Technical Standards Amendment 2023 compliance requirements collectively define a performance floor that operators must meet to protect grid connection approvals and tariff revenues. Integrating regulatory benchmarks into a unified operational dashboard is not just best practice—it is increasingly a condition for continued grid access.
+        </p></div>
+<hr class="pulse-article__divider">
+
+    <footer class="author-card">
+      <a href="https://www.linkedin.com/in/nksingal" class="author-card__avatar-link" target="_blank" rel="noopener noreferrer">
+        <img class="author-card__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+      </a>
+      <div class="author-card__content">
+        <div class="author-card__header">
+          <div>
+            <a href="https://www.linkedin.com/in/nksingal" class="author-card__name" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+            <span class="author-card__badge">Influencer</span>
+          </div>
+          <a href="https://www.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">Follow</a>
+        </div>
+        <p class="author-card__headline">Founder @ Semco Group, Entrepreneur, Lithium Battery Testing &amp; Assembly Solutions, Electric vehicles, Strategic Planning, Design &amp; Solution of BESS Manufacturing - Pack &amp; Container line, Cell, Pack &amp; Container Testing</p>
+        <p class="author-card__followers">58,813 followers</p>
+      </div>
+    </footer>
+
+    <section class="social-follow">
+      <h3 class="social-follow__title">For More Updates Follow Us</h3>
+      <nav class="social-follow__links" aria-label="Social media links"><a href="https://whatsapp.com/channel/0029VaAQVuiA89MpM5Qh3b0f" target="_blank" rel="noopener noreferrer">WhatsApp</a><span class="social-follow__sep">-</span><a href="https://www.facebook.com/semcouniversity" target="_blank" rel="noopener noreferrer">Facebook</a><span class="social-follow__sep">-</span><a href="https://www.instagram.com/semcouniversity/" target="_blank" rel="noopener noreferrer">Instagram</a><span class="social-follow__sep">-</span><a href="https://x.com/nksingal" target="_blank" rel="noopener noreferrer">Twitter</a><span class="social-follow__sep">-</span><a href="https://www.linkedin.com/in/nksingal/?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="social-follow__sep">-</span><a href="https://www.youtube.com/c/SemcoInfratechPvtLtd?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">YouTube</a></nav>
+    </section>
+      </div>
+
+      <div class="engagement-bar">
+        <button type="button" class="engagement-bar__btn" aria-label="Like">
+          <span>Like (34)</span>
+        </button>
+        <button type="button" class="engagement-bar__btn" aria-label="Comment"><span>Comment</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Repost"><span>Repost</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Send"><span>Send</span></button>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Offline duplicate of <a href="https://www.linkedin.com/pulse/what-typical-performance-kpis-bess-plants-neeraj-kumar-singal-ftrqc/" target="_blank" rel="noopener noreferrer">LinkedIn Pulse article</a></p>
+  </footer>
+</body>
+</html>

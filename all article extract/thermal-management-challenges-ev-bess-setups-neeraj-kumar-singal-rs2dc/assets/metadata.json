@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://www.linkedin.com/pulse/thermal-management-challenges-ev-bess-setups-neeraj-kumar-singal-rs2dc/",
+  "title": "Thermal Management Challenges in EV-BESS Setups",
+  "author": {
+    "name": "Neeraj Kumar Singal",
+    "url": "https://in.linkedin.com/in/nksingal",
+    "avatarUrl": "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM"
+  },
+  "publishedDate": "Sep 16, 2025",
+  "downloadedImages": {
+    "https://media.licdn.com/dms/image/v2/D5612AQEG4gA8ryQg3Q/article-cover_image-shrink_720_1280/B56ZlRzIEuKAAI-/0/1758013990995?e=2147483647&v=beta&t=hcFDPK87fWXnlINfAGmFJtfCMj3d5R3X7C8PVriNi9E": "images/cover.png",
+    "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM": "images/author-avatar.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFrTk_MF4BF-g/article-inline_image-shrink_1500_2232/B56ZlRgyH3KAAU-/0/1758009173370?e=2147483647&v=beta&t=_bpIg8gveJMKKEAsOP7L7uFinb8PjpFOQra2iVszW5U": "images/image-003-0d99bf1f.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQEjTsZwCiQXtw/article-inline_image-shrink_1000_1488/B56ZlQ2Y7IHQAQ-/0/1757998060658?e=2147483647&v=beta&t=XRDuNQloIX8wKpTRJN-RWBbin73EYte2Faa344aNA1g": "images/image-004-3c6e75de.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQEvq0vrC0DuoQ/article-inline_image-shrink_1000_1488/B56ZlQ1uOcH8AQ-/0/1757997885487?e=2147483647&v=beta&t=ne7TC4DnZPE4LOFGT5dZ49CuG5zHvNVwwR_Eu5Pv_a0": "images/image-005-3a5b4709.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQERz9tOQY8fJw/article-inline_image-shrink_1500_2232/B56ZlQ5PE.KAAU-/0/1757998807090?e=2147483647&v=beta&t=LN3mMd38h_0u773dygyBU-cdh8O6B8xGgKLPN3042UY": "images/image-006-a31067a1.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQEoSmzXwe-N1g/article-inline_image-shrink_1500_2232/B56ZlQ2gwAHAAY-/0/1757998091831?e=2147483647&v=beta&t=q7B_-h4-FduBEWezekSVzkksOZbqKhAckbqqmZlBRck": "images/image-007-9c4306ad.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQHFerRlPhFX9g/article-inline_image-shrink_1500_2232/B56ZlQ8hHZJsAY-/0/1757999666962?e=2147483647&v=beta&t=oV3vcItjeAeNbPt4o3movOPlM_mfGNRjwugin1PwAD8": "images/image-008-a942026a.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHW8fGLe8RVOg/article-inline_image-shrink_1000_1488/B56ZlRTYcXI8AQ-/0/1758005660612?e=2147483647&v=beta&t=_P7lZYzKNLHEhaL4ciCMTLQmyoU2hS3YtJPKk5f38mg": "images/image-009-65769909.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQE6ESq4x8n1DQ/article-inline_image-shrink_1000_1488/B56ZlRUEVCJwAQ-/0/1758005840002?e=2147483647&v=beta&t=eXGEuoBzEk7TxjxWJ6ocsQ_xcmJXTJZmuArePazH3ac": "images/image-010-2b52facf.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFK5mp1Zcro2A/article-inline_image-shrink_1000_1488/B56ZlRUybUJwAQ-/0/1758006029004?e=2147483647&v=beta&t=YLLJlZ2rSa4Np2X7rq6BASYZVI4IE1PLdx3vMs5SMM0": "images/image-011-fd263780.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFk9-g5N_YldQ/article-inline_image-shrink_400_744/B56ZlRcueOI8AY-/0/1758008116106?e=2147483647&v=beta&t=4DXqCR1i168y4YbXBHHc0X-K5ti_600K0_qGHwXqwuY": "images/image-012-8eea06ca.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQF3ECXYQiYg_A/article-inline_image-shrink_1000_1488/B56ZlRbbPdHMAU-/0/1758007784262?e=2147483647&v=beta&t=RwfhnH1qF8qejj91DQWNnOQHIYG6XrX7nT6Z6-tboSM": "images/image-013-a2ba0d2b.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE8DVbsX4D-HA/article-inline_image-shrink_1500_2232/B56ZlRdx_oH8AU-/0/1758008387031?e=2147483647&v=beta&t=raMi-UI2eHReE4u2eSObUns_hBYgQgbGCz-3DPOLC5E": "images/image-014-a7c611a7.png"
+  },
+  "generatedAt": "2026-05-22T04:56:17.336Z"
+}

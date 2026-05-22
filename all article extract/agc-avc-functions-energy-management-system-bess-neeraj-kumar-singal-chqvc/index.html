@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGC and AVC Functions of Energy Management System in BESS</title>
+  <meta name="description" content="As India accelerates toward its ambitious renewable energy targets — with the Central Electricity Authority (CEA) estimating a requirement of approximately 336 GWh of energy storage capacity by 2029–30 — Battery Energy Storage Systems (BESS) are rapidly evolving from passive storage assets into acti">
+  <meta property="og:title" content="AGC and AVC Functions of Energy Management System in BESS">
+  <meta property="og:description" content="As India accelerates toward its ambitious renewable energy targets — with the Central Electricity Authority (CEA) estimating a requirement of approximately 336 GWh of energy storage capacity by 2029–30 — Battery Energy Storage Systems (BESS) are rapidly evolving from passive storage assets into acti">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="canonical" href="https://www.linkedin.com/pulse/agc-avc-functions-energy-management-system-bess-neeraj-kumar-singal-chqvc/">
+</head>
+<body>
+  <header class="global-nav" role="banner">
+    <div class="global-nav__inner">
+      <a class="global-nav__logo" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 21" width="84" height="21" aria-hidden="true">
+          <path fill="#0a66c2" d="M62.5 0h-6.3v14.9h6.3V0zm-3.2 16.9c-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6-1.6-3.6-3.6-3.6zM20.1 0H8.6v21h11.5V0zM0 0v21h8.6V0H0zm57.3 8.1c-4.5 0-7.3 3-7.3 7.7V21h6.3v-4.8c0-2.2 1.4-3.5 3.4-3.5 2 0 3.2 1.3 3.2 3.5V21H84v-5.2c0-4.7-2.8-7.7-7.3-7.7-2.5 0-4.2 1.1-5.2 2.6h-.2V8.1h-6.3v12.9h6.3V15c0-2.2 1.2-3.5 3-3.5 1.9 0 3 1.3 3 3.5v5.9h6.4V14.3c0-4.5-2.7-6.2-6.7-6.2z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <article class="pulse-article">
+      <figure class="cover-image"><img src="assets/images/cover.png" alt="AGC and AVC Functions of Energy Management System in BESS"></figure>
+      <div class="pulse-article__actions">
+        <span class="report-link">Report this article</span>
+      </div>
+
+      <header class="article-author">
+        <a href="https://in.linkedin.com/in/nksingal" class="article-author__avatar-link" target="_blank" rel="noopener noreferrer">
+          <img class="article-author__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+        </a>
+        <div class="article-author__info">
+          <h2 class="article-author__name">
+            <a href="https://in.linkedin.com/in/nksingal" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+          </h2>
+          <time class="article-author__date">Published May 9, 2026</time>
+        </div>
+        <a href="https://in.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">+ Follow</a>
+      </header>
+
+      <h1 class="pulse-article__title">AGC and AVC Functions of Energy Management System in BESS</h1>
+
+      <div class="pulse-article__body">
+        <div class="article-block"><p>
+          As India accelerates toward its ambitious renewable energy targets — with the Central Electricity Authority (CEA) estimating a requirement of approximately 336 GWh of energy storage capacity by 2029–30 — Battery Energy Storage Systems (BESS) are rapidly evolving from passive storage assets into active grid participants. Central to this transformation is the Energy Management System (EMS), the intelligent "brain" of every BESS installation. Among the EMS's most critical advanced functions are Automatic Generation Control (AGC) and Automatic Voltage Control (AVC) — two complementary dispatch capabilities that enable BESS to actively support grid stability at a system level.
+        </p></div>
+<div class="article-block"><p>
+          This article provides a detailed technical explanation of AGC and AVC within the EMS architecture of a BESS, covering their objectives, control mechanisms, operating modes, performance benchmarks, and their growing importance in the Indian grid context.
+        </p></div>
+<div class="article-block"><h3>The EMS: Command Center of a BESS</h3></div>
+<div class="article-block"><p>
+          Before diving into AGC and AVC, it is important to understand where these functions sit within the BESS architecture. A modern BESS is built on three interconnected systems, often called the "3S" framework:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>BMS (Battery Management System): The battery's "bodyguard" — monitors cell voltage, temperature, SOC/SOH, and ensures safety boundaries.</li>
+    <li>PCS (Power Conversion System): The "executor" — performs bidirectional AC/DC energy conversion with millisecond-level response.</li>
+    <li>EMS (Energy Management System): The "brain and commander" — makes all high-level dispatch decisions, coordinating BMS and PCS toward grid and business objectives.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-003-5add204e.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          The EMS collects real-time data from all subsystems and interfaces with the grid dispatch center via secure communication channels (typically IEC 60870-5-104 or IEC 61850 protocols). It translates top-level grid commands — including AGC and AVC instructions — into specific charging and discharging commands issued to each PCS unit. This hierarchical loop of "perception → decision → execution" forms the backbone of BESS grid services.
+        </p></div>
+<div class="article-block"><h3>EMS System Composition</h3></div>
+<div class="article-block"><p>
+          An EMS system is generally composed of four layers: device layer, communication layer, information layer, and application layer.
+        </p></div>
+<div class="article-block"><p>
+          Equipment layer: requires energy harvesting and conversion (PCS, BMS) as support; the equipment layer mainly includes energy storage battery cabinets, energy storage battery management system (BMS), energy storage converter (PCS), auxiliary control system (air conditioning, fire protection, temperature and humidity metering), smart meters, etc.
+        </p></div>
+<div class="article-block"><p>
+          Communication layer: mainly includes links, protocols, transmission, etc.; EMS communicates with the device layer mainly through RJ45 and RS485 bus connections. The main communication protocols include Modbus, IEC104, IEC61850, etc.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-004-5748a544.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Information layer: mainly includes caching middleware, database, and server. The database system is responsible for data processing and data storage, recording real-time data and important historical data, and providing historical information query.
+        </p></div>
+<div class="article-block"><p>
+          Application Layer: The presentation forms include APP, Web, etc., providing managers with a visual monitoring and operation interface. Specific functions include energy conversion decision-making, energy data transmission and acquisition, real-time monitoring and control, operation and maintenance management analysis, power/electricity visual analysis, remote real-time control, etc.
+        </p></div>
+<div class="article-block"><h3>AGC — Automatic Generation Control</h3></div>
+<div class="article-block"><h3>What is AGC?</h3></div>
+<div class="article-block"><p>
+          Automatic Generation Control (AGC) is a centralized, automated control technology designed to maintain grid frequency stability by continuously balancing active power supply and demand across the power system. The grid operates at a nominal frequency — 50 Hz in India — and any imbalance between generation and consumption causes this frequency to deviate. AGC corrects these deviations in real time.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-005-dfb83d15.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          In the traditional power system hierarchy, frequency control operates at three levels:
+        </p></div>
+<div class="article-block"><ol>
+        
+    <li>Primary Control (seconds): Autonomous, local response from governor action or inverter droop, arresting the initial frequency excursion.</li>
+    <li>Secondary Control (tens of seconds to minutes): Centralized AGC dispatches setpoint changes to resources, bringing the Area Control Error (ACE) back toward zero.</li>
+    <li>Tertiary Control (minutes): Manual or automated dispatch of slower units for economic optimization.</li>
+
+      </ol>
+  
+        </div>
+<div class="article-block"><p>
+          BESS with EMS-based AGC primarily operates as a secondary control resource, though its sub-second power electronics response also enables effective primary control participation.
+        </p></div>
+<div class="article-block"><h3>The Area Control Error (ACE)</h3></div>
+<div class="article-block"><p>
+          The key error signal driving AGC is the Area Control Error (ACE), which combines two components: the deviation of actual net power interchange from its scheduled value (tie-line error) and a frequency bias term proportional to the frequency deviation. A positive ACE indicates over-generation or excess exports — the AGC instructs generation reduction. A negative ACE signals under-generation — the AGC calls for increased output.
+        </p></div>
+<div class="article-block"><p>
+          In a BESS context, the EMS receives the ACE-derived setpoint command from the National/State/Regional Load Dispatch Center (NLDC/SLDC/RLDC) and translates it into charge or discharge commands for the PCS fleet, effectively making the BESS act as a fast, controllable generation resource.
+        </p></div>
+<div class="article-block"><h3>How AGC Works in a BESS</h3></div>
+<div class="article-block"><p>
+          The AGC control loop within a BESS EMS operates as follows:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-006-fd04dd9f.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ol>
+        
+    <li>Frequency Monitoring: The EMS or the grid dispatch center continuously monitors real-time grid frequency at the Point of Interconnection (POI).</li>
+    <li>Setpoint Reception: When frequency deviates beyond the deadband, the dispatch center transmits an active power setpoint or a raise/lower pulse to the BESS EMS via the dedicated Power Dispatch Data Network.</li>
+    <li>Command Decomposition: The EMS decomposes the received AGC command into individual power commands for each PCS unit within the BESS station.</li>
+    <li>PCS Execution: Each PCS executes the power command — charging absorbs active power (reduces net plant output), while discharging injects active power into the grid. PCS systems in modern BESS achieve power response times under 200 milliseconds.</li>
+    <li>SOC-Aware Regulation: The EMS simultaneously tracks battery SOC across all clusters. It dynamically adjusts regulation coefficients to prevent overcharging or deep discharge, ensuring sustained AGC availability.</li>
+    <li>SOC Recovery: After a regulation event, the EMS initiates an SOC recovery cycle to restore the battery to its optimal pre-event state, ensuring continuous AGC capability for subsequent dispatch cycles.</li>
+    <li>Telemetry and Feedback: The EMS reports real-time power, SOC, and operational status back to the dispatch center for compliance verification and market settlement.</li>
+
+      </ol>
+  
+        </div>
+<div class="article-block"><h3>AGC Operating Modes in BESS EMS</h3></div>
+<div class="article-block"><p>
+          The EMS typically supports multiple AGC sub-modes:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-007-e75b2534.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Key AGC Performance Benchmarks</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-008-e25be9c0.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>AGC and SOC Management</h3></div>
+<div class="article-block"><p>
+          A critical challenge unique to BESS in AGC service is State of Charge (SOC) management. Unlike a thermal generator with unlimited fuel supply, a BESS has finite energy capacity. The EMS must ensure the battery operates within safe SOC limits (typically 20%–90%) throughout the regulation cycle.
+        </p></div>
+<div class="article-block"><p>
+          The EMS achieves this through SOC hysteresis control and adaptive droop coefficients — when the SOC is low, regulation coefficients for discharge commands are reduced to protect the battery; when SOC is high, charging commands are moderated. Some advanced EMS platforms use virtual inertia control (response proportional to Rate of Change of Frequency — RoCoF) and virtual droop control (response proportional to frequency deviation) as complementary strategies to balance regulation precision with battery longevity.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-009-fa479bd3.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>AVC — Automatic Voltage Control</h3></div>
+<div class="article-block"><h3>What is AVC?</h3></div>
+<div class="article-block"><p>
+          Automatic Voltage Control (AVC) is the counterpart to AGC — while AGC governs active power and frequency, AVC governs reactive power and grid voltage. The objective of AVC is to maintain bus voltages across the power system within safe and specified limits (typically ±5% of nominal) by controlling reactive power injection or absorption.
+        </p></div>
+<div class="article-block"><p>
+          In interconnected grids, voltage stability is closely linked to reactive power balance. Reactive power cannot be transmitted efficiently over long distances; it must be generated or absorbed locally. BESS, with their bidirectional power electronics (PCS), can generate or consume reactive power independently of active power — making them uniquely valuable for AVC services.
+        </p></div>
+<div class="article-block"><h3>How AVC Works in a BESS</h3></div>
+<div class="article-block"><p>
+          The AVC control loop within the BESS EMS functions as follows:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-010-ed7f3cb1.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ol>
+        
+    <li>Voltage Monitoring: The EMS directly measures voltage at the grid connection point (POI bus) in real time.</li>
+    <li>Setpoint Reception: The grid dispatch center's EMS calculates total reactive power adjustments or voltage targets needed for system voltage stability and transmits a reactive power setpoint (MVAR) or a target voltage (kV) to the BESS EMS.</li>
+    <li>Command Decomposition: The EMS distributes the reactive power command across PCS units, leveraging their four-quadrant inverter capability — generating reactive power (capacitive, +Q) to support low voltage, or absorbing reactive power (inductive, −Q) to suppress overvoltage.</li>
+    <li>Auxiliary Device Coordination: If the BESS plant includes dedicated reactive compensation devices (SVG — Static Var Generator, or SVC — Static Var Compensator) or on-load tap-changing (OLTC) transformers, the EMS coordinates these alongside PCS for optimized reactive dispatch.</li>
+    <li>Q-V Droop Control: Many EMS platforms implement a Q-V characteristic curve (droop control) — reactive power output adjusts proportionally to voltage deviation, with a deadband around the nominal voltage to prevent unnecessary switching.</li>
+    <li>Feedback and Stabilization: The adjusted reactive power injection or absorption corrects the voltage deviation, and the EMS continuously refines its output to track the dispatch setpoint.</li>
+
+      </ol>
+  
+        </div>
+<div class="article-block"><h3>Q-V Characteristic in AVC</h3></div>
+<div class="article-block"><p>
+          The Q-V droop curve is the mathematical foundation of AVC response. It defines reactive power output (Q) as a function of measured voltage (V) at the POI:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-011-0bf488f4.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ul>
+        
+    <li>Deadband zone: No reactive adjustment when voltage is within nominal limits (e.g., 0.99–1.01 p.u.)</li>
+    <li>Capacitive (Q &gt; 0) zone: When voltage drops below deadband lower limit, the BESS injects reactive power to support voltage recovery</li>
+    <li>Inductive (Q &lt; 0) zone: When voltage rises above deadband upper limit, the BESS absorbs reactive power to suppress the overvoltage</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><p>
+          This local, autonomous Q-V response allows the BESS to provide dynamic voltage support without waiting for a remote dispatch command — especially critical during rapid transient events such as faults, sudden load changes, or renewable generation steps.
+        </p></div>
+<div class="article-block"><h3>Key AVC Performance Benchmarks</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-012-faabfb14.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>AGC vs. AVC: Core Differences</h3></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-013-79ab00a8.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Despite their differences, AGC and AVC are not independent — they work in tandem. Significant active power fluctuations (AGC events) can affect local voltage, requiring a simultaneous AVC response. Conversely, excessive reactive power draw from the inverter can slightly constrain available active power capacity due to inverter MVA limits. A well-designed BESS EMS coordinates both control loops to ensure neither compromises the other.
+        </p></div>
+<div class="article-block"><h3>Communication Architecture: How Dispatch Reaches the BESS EMS</h3></div>
+<div class="article-block"><p>
+          The reliability of AGC and AVC depends entirely on the communication infrastructure linking the grid dispatch center to the BESS EMS. The architecture typically includes:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Remote Control Unit (RCU): Configured in dual-unit redundancy, it handles all communication between the energy storage power station and the power grid dispatch center. It uses the IEC 60870-5-104 protocol for power communication.</li>
+    <li>Vertical Encryption Device: Ensures cybersecurity compliance for communication over the dispatch data network, meeting large grid encryption requirements.</li>
+    <li>Dual-Network Redundant Communication: The EMS and the telecontrol equipment use dual-network redundancy (primary + backup) to guarantee communication reliability — a critical requirement for AGC/AVC services where a communication failure would cause loss of grid support.</li>
+    <li>SCADA Integration: The EMS's SCADA module provides real-time data acquisition from all station subsystems and transmits key operational parameters (SOC, power, voltage, current, alarms) to the dispatch center.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-014-274b2aff.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>AGC and AVC in the Indian BESS Context</h3></div>
+<div class="article-block"><p>
+          India's evolving grid code and regulatory framework increasingly mandate AGC and AVC compliance for large BESS installations:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>CERC Ancillary Services Regulations (2022): Energy storage systems are eligible to provide Secondary Reserve Ancillary Services (SRAS) and Tertiary Reserve Ancillary Services (TRAS), which are directly linked to AGC dispatch.</li>
+    <li>AGC for Renewable Balancing: The Government of India has deployed AGC for balancing supply and demand to manage variability of renewable energy. Grid India has also proposed mandatory AGC capability for all new renewable energy and BESS projects.</li>
+    <li>CEA Technical Standards (Amendment 2023): Renewable energy and BESS projects must demonstrate compliance with grid code requirements at the Point of Interconnection (POI), including reactive power capability across a 0.95–1.05 p.u. voltage range — a direct AVC requirement.</li>
+    <li>BESS Scale-Up: CEA has estimated a requirement of 336 GWh of energy storage by 2029–30 and 411 GWh by 2031–32. At this scale, the AGC and AVC capabilities of BESS EMS will be indispensable for frequency and voltage security across the Indian grid.</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-015-e31a672d.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Advanced EMS Features Enhancing AGC and AVC</h3></div>
+<div class="article-block"><p>
+          Modern BESS EMS platforms are incorporating intelligent features that take AGC and AVC performance beyond conventional reactive control:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>AI-Based Predictive Dispatch: Machine learning models predict frequency excursions and voltage events before they occur, allowing the BESS to pre-position its SOC and reactive power margin for faster, more effective response.</li>
+    <li>Multi-Objective Coordinated Control: The EMS simultaneously manages AGC, AVC, primary frequency regulation, peak shaving, and reserve services — allocating resources across these competing demands in real time.</li>
+    <li>Adaptive SOC-Based Regulation Coefficients: AGC participation factors are dynamically adjusted based on real-time SOC, preventing battery degradation during sustained regulation events.</li>
+    <li>Virtual Power Plant (VPP) Integration: Advanced EMS platforms support VPP aggregation modules, enabling multiple distributed BESS assets to participate as a unified AGC/AVC resource in the ancillary services market.</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><h3>Conclusion</h3></div>
+<div class="article-block"><p>
+          AGC and AVC are the most advanced and grid-critical functions of the BESS EMS. Together, they transform a battery bank into a dispatchable, grid-supporting power plant capable of maintaining both frequency and voltage stability in real time. AGC addresses active power balance and frequency regulation — responding within seconds to Area Control Error signals from the dispatch center. AVC addresses reactive power balance and voltage regulation — adjusting reactive output to maintain safe voltage levels at the POI.
+        </p></div>
+<figure class="article-figure"><a href="https://neerajkumarsingal.com/" target="_blank" rel="noopener noreferrer"><img class="article-image" src="assets/images/image-016-e4f73e7f.jpg" alt="Article content" loading="lazy"></a></figure>
+<div class="article-block"><p>
+          As India's renewable energy capacity expands and the grid increasingly depends on BESS for ancillary services, mastering the AGC and AVC capabilities of the EMS is no longer optional — it is a fundamental prerequisite for grid code compliance, market participation, and long-term revenue generation from energy storage assets. The performance of these two functions, underpinned by robust communication architecture, intelligent SOC management, and coordinated multi-mode control, will define the quality and value of every grid-scale BESS installation in the years ahead.
+        </p></div>
+<hr class="pulse-article__divider">
+
+    <footer class="author-card">
+      <a href="https://www.linkedin.com/in/nksingal" class="author-card__avatar-link" target="_blank" rel="noopener noreferrer">
+        <img class="author-card__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+      </a>
+      <div class="author-card__content">
+        <div class="author-card__header">
+          <div>
+            <a href="https://www.linkedin.com/in/nksingal" class="author-card__name" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+            <span class="author-card__badge">Influencer</span>
+          </div>
+          <a href="https://www.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">Follow</a>
+        </div>
+        <p class="author-card__headline">Founder @ Semco Group, Entrepreneur, Lithium Battery Testing &amp; Assembly Solutions, Electric vehicles, Strategic Planning, Design &amp; Solution of BESS Manufacturing - Pack &amp; Container line, Cell, Pack &amp; Container Testing</p>
+        <p class="author-card__followers">58,813 followers</p>
+      </div>
+    </footer>
+
+    <section class="social-follow">
+      <h3 class="social-follow__title">For More Updates Follow Us</h3>
+      <nav class="social-follow__links" aria-label="Social media links"><a href="https://whatsapp.com/channel/0029VaAQVuiA89MpM5Qh3b0f" target="_blank" rel="noopener noreferrer">WhatsApp</a><span class="social-follow__sep">-</span><a href="https://www.facebook.com/semcouniversity" target="_blank" rel="noopener noreferrer">Facebook</a><span class="social-follow__sep">-</span><a href="https://www.instagram.com/semcouniversity/" target="_blank" rel="noopener noreferrer">Instagram</a><span class="social-follow__sep">-</span><a href="https://x.com/nksingal" target="_blank" rel="noopener noreferrer">Twitter</a><span class="social-follow__sep">-</span><a href="https://www.linkedin.com/in/nksingal/?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="social-follow__sep">-</span><a href="https://www.youtube.com/c/SemcoInfratechPvtLtd?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">YouTube</a></nav>
+    </section>
+      </div>
+
+      <div class="engagement-bar">
+        <button type="button" class="engagement-bar__btn" aria-label="Like">
+          <span>Like (46)</span>
+        </button>
+        <button type="button" class="engagement-bar__btn" aria-label="Comment"><span>Comment</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Repost"><span>Repost</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Send"><span>Send</span></button>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Offline duplicate of <a href="https://www.linkedin.com/pulse/agc-avc-functions-energy-management-system-bess-neeraj-kumar-singal-chqvc/" target="_blank" rel="noopener noreferrer">LinkedIn Pulse article</a></p>
+  </footer>
+</body>
+</html>

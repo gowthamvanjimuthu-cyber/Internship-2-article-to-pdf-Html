@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How do you Select PCS and What Grid Codes/Compliance matter in India?</title>
+  <meta name="description" content="As India races toward its 500 GW renewable energy target and a mandated 208 GWh of Battery Energy Storage Systems (BESS) by 2030, the Power Conversion System (PCS) has emerged as one of the most consequential technical decisions in any storage project. While batteries often command attention in proj">
+  <meta property="og:title" content="How do you Select PCS and What Grid Codes/Compliance matter in India?">
+  <meta property="og:description" content="As India races toward its 500 GW renewable energy target and a mandated 208 GWh of Battery Energy Storage Systems (BESS) by 2030, the Power Conversion System (PCS) has emerged as one of the most consequential technical decisions in any storage project. While batteries often command attention in proj">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="canonical" href="https://www.linkedin.com/pulse/how-do-you-select-pcs-what-grid-codescompliance-matter-singal-3yi0c/">
+</head>
+<body>
+  <header class="global-nav" role="banner">
+    <div class="global-nav__inner">
+      <a class="global-nav__logo" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 21" width="84" height="21" aria-hidden="true">
+          <path fill="#0a66c2" d="M62.5 0h-6.3v14.9h6.3V0zm-3.2 16.9c-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6-1.6-3.6-3.6-3.6zM20.1 0H8.6v21h11.5V0zM0 0v21h8.6V0H0zm57.3 8.1c-4.5 0-7.3 3-7.3 7.7V21h6.3v-4.8c0-2.2 1.4-3.5 3.4-3.5 2 0 3.2 1.3 3.2 3.5V21H84v-5.2c0-4.7-2.8-7.7-7.3-7.7-2.5 0-4.2 1.1-5.2 2.6h-.2V8.1h-6.3v12.9h6.3V15c0-2.2 1.2-3.5 3-3.5 1.9 0 3 1.3 3 3.5v5.9h6.4V14.3c0-4.5-2.7-6.2-6.7-6.2z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <article class="pulse-article">
+      <figure class="cover-image"><img src="assets/images/cover.jpg" alt="How do you Select PCS and What Grid Codes/Compliance matter in India?"></figure>
+      <div class="pulse-article__actions">
+        <span class="report-link">Report this article</span>
+      </div>
+
+      <header class="article-author">
+        <a href="https://in.linkedin.com/in/nksingal" class="article-author__avatar-link" target="_blank" rel="noopener noreferrer">
+          <img class="article-author__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+        </a>
+        <div class="article-author__info">
+          <h2 class="article-author__name">
+            <a href="https://in.linkedin.com/in/nksingal" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+          </h2>
+          <time class="article-author__date">Published Apr 4, 2026</time>
+        </div>
+        <a href="https://in.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">+ Follow</a>
+      </header>
+
+      <h1 class="pulse-article__title">How do you Select PCS and What Grid Codes/Compliance matter in India?</h1>
+
+      <div class="pulse-article__body">
+        <div class="article-block"><p>
+          As India races toward its 500 GW renewable energy target and a mandated 208 GWh of Battery Energy Storage Systems (BESS) by 2030, the Power Conversion System (PCS) has emerged as one of the most consequential technical decisions in any storage project. While batteries often command attention in project discussions, the PCS is the true bridge between the DC world of battery chemistry and the AC world of the national grid — and getting it wrong means poor efficiency, non-compliance, and potential project delays.
+        </p></div>
+<div class="article-block"><p>
+          This article provides a comprehensive guide to PCS selection criteria and the grid code/compliance framework that every BESS developer, EPC contractor, and energy storage professional needs to know in the Indian context.
+        </p></div>
+<div class="article-block"><h3>What Is a PCS and Why Does It Matter?</h3></div>
+<div class="article-block"><p>
+          A Power Conversion System is the hardware and software interface between a battery bank (DC) and the electrical grid (AC). It manages the bidirectional conversion of energy — charging batteries from the grid when surplus power is available and discharging stored energy back when the grid needs it. But the role of a PCS goes far beyond simple AC/DC conversion.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-003-0557624c.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          A well-selected PCS determines how effectively a BESS can:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Charge and discharge at the required C-rate</li>
+    <li>Maintain grid stability through reactive power and frequency support</li>
+    <li>Integrate seamlessly with SCADA and Energy Management Systems (EMS)</li>
+    <li>Handle grid faults and enable advanced functions like black start</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><p>
+          The PCS also communicates with the Battery Management System (BMS), ensuring safe operation and maintaining energy flow balance at all times. Without a high-quality, properly specified PCS, even the most advanced lithium-ion battery arrays cannot perform effectively in a grid-connected environment.
+        </p></div>
+<div class="article-block"><h2>
+            Key Selection Criteria for PCS
+          </h2></div>
+<div class="article-block"><h3>1. Power Rating and DC Bus Voltage</h3></div>
+<div class="article-block"><p>
+          The most fundamental step in PCS selection is correctly matching its capacity to the BESS sizing. For example, a 501.5 MWh system operating at 0.25C requires a 125 MW PCS. Under sizing the PCS creates bottlenecks; oversizing inflates CAPEX unnecessarily.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-004-cc10f05d.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          DC bus voltage compatibility is equally critical. The two dominant standards are 1,000 V and 1,500 V DC. Over the past few years, the 1,500 V DC architecture has become the utility-scale standard globally and increasingly in India. The rationale is straightforward: higher voltage enables higher power transfer at lower current, reducing energy losses, minimizing the size of cables and protection devices, and simplifying the overall electrical infrastructure. This directly lowers the Levelized Cost of Energy (LCOE) — a key metric for commercially stressed BESS projects. The industry is already beginning to explore 2,000 V architectures for even greater optimization.
+        </p></div>
+<div class="article-block"><h3>2. Architecture: Central, String, or Modular</h3></div>
+<div class="article-block"><p>
+          The architecture of the PCS is one of the most strategically significant decisions a project developer makes. There are three primary options, each with distinct trade-offs:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-005-9d0b6808.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          For large-scale Indian projects like NTPC's 4,000 MWh deployment across thermal stations, centralized PCS architecture offers compelling economies of scale. However, for projects where high uptime is contractually mandated (e.g., ancillary services contracts with Grid-India), modular string PCS provides superior fault tolerance — if one unit fails, only that fraction of capacity goes offline, not the entire installation.
+        </p></div>
+<div class="article-block"><h3>3. Efficiency and Round-Trip Performance</h3></div>
+<div class="article-block"><p>
+          Efficiency is perhaps the most financially consequential PCS specification. But efficiency figures require careful interpretation. Manufacturers often quote cell-level or DC-side efficiency — what truly matters in utility projects is the grid-level AC Round-Trip Efficiency (RTE).
+        </p></div>
+<div class="article-block"><p>
+          Before finalizing any PCS, engineers must ask: "Where exactly is the RTE measured?" Poor integration between the PCS, transformers, and auxiliary systems can significantly erode real-world efficiency even if the PCS datasheet claims impressive numbers.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-006-3c1c2f7b.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          From a regulatory standpoint, CERC has established a normative RTE of 85% for integrated BESS systems in Indian grid tariff calculations. The VGF Scheme for BESS also references an 80% RTE benchmark in project orders. Premium modern PCS units, such as the 
+      <a href="https://cn.linkedin.com/company/alphaess?trk=article-ssr-frontend-pulse_little-mention">AlphaESS</a>
+   STORION series, can achieve up to 98.3% Euro Efficiency at the converter level, but system-level losses from transformers, cooling, and cabling reduce net RTE.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-007-cfb716a7.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>4. Grid Support Functions</h3></div>
+<div class="article-block"><p>
+          A modern PCS for Indian grid deployment must support a comprehensive suite of grid services:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Reactive Power Control (Q Control): The ability to inject or absorb reactive power, vital for maintaining voltage stability at the Point of Interconnection (POI)</li>
+    <li>Active Power and Frequency Droop: Proportional response to frequency deviations, supporting the Indian grid's Primary Frequency Response (PFR) requirements</li>
+    <li>Ramp Rate Control: The ability to limit active power ramp rates, which CEA mandates at ±10%/min for BESS projects</li>
+    <li>AGC Set Point Control: Ability to respond to signals from Automatic Generation Control for secondary frequency regulation</li>
+    <li>Overload Capability: Some PCS units can sustain 1.2× rated current for 2 minutes, critical for handling transient grid instability</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-008-a4a21071.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>5. Grid-Forming vs Grid-Following</h3></div>
+<div class="article-block"><p>
+          This is the most forward-looking selection consideration for India. Conventional PCS units operate as Grid-Following (GFL) inverters — they synchronize to an existing grid voltage and frequency reference. Grid-Forming (GFM) inverters behave like virtual synchronous generators: they can establish voltage and frequency, provide synthetic inertia, and operate stably in weak-grid or islanded conditions.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-009-3279050f.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          In January 2026, 
+      <a href="https://in.linkedin.com/company/grid-controller-of-india-limited?trk=article-ssr-frontend-pulse_little-mention">Grid Controller of India Limited</a>
+   published a landmark discussion paper proposing that all new BESS installations of 50 MW and above should incorporate grid-forming capability, particularly in weak-grid or remote areas. A GFM PCS can:
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Establish voltage and frequency references autonomously</li>
+    <li>Provide virtual inertia and damping</li>
+    <li>Enable black start capability (restoring grid after a blackout)</li>
+    <li>Ride through disturbances without tripping</li>
+    <li>Operate in weak grids with low short-circuit ratios</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-010-5664f13c.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Stakeholders were invited to comment on this proposal through February 2026. While GFM mandates are not yet legally enforceable for BESS, developers selecting PCS for new large-scale projects should anticipate this direction and factor GFM readiness into their procurement decisions.
+        </p></div>
+<div class="article-block"><h3>6. Protection, Communication, and SCADA Integration</h3></div>
+<div class="article-block"><p>
+          A PCS must integrate with the plant's SCADA and EMS platforms, and communicate operational data (voltage, frequency, power flows) to relevant Load Despatch Centers. Under the CEA Uniform Protection Protocol approved in November 2024, all grid users at 220 kV and above (132 kV in the North-Eastern Region) must comply with standardized protection coordination — including for BESS installations. This protocol addresses protection for generating stations, substations, HVDC terminals, and BESS to ensure grid stability, reliability, and security.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-011-1d5d693d.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>7. Thermal Management Integration</h3></div>
+<div class="article-block"><p>
+          In India's diverse and often extreme climate conditions, the PCS-battery thermal integration is a critical reliability factor. Optimal battery operating temperature is 15°C to 35°C. For utility-scale deployments in states like Rajasthan or Gujarat — where ambient temperatures can exceed 45°C — liquid-cooled BESS systems with integrated PCS are essential. The Draft CEA (Measures Relating to Safety and Electric Supply) Regulations 2025 introduce specific requirements for liquid-cooled systems, making this an area of increasing regulatory scrutiny.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-012-915562b9.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h2>
+            India's Grid Code and Compliance Framework
+          </h2></div>
+<div class="article-block"><p>
+          Understanding what grid codes apply — and which regulatory body owns them — is essential for any BESS developer in India.
+        </p></div>
+<div class="article-block"><h3>CEA Technical Standards for Connectivity — Amendment 2023</h3></div>
+<div class="article-block"><p>
+          This amendment is the most operationally significant compliance framework for BESS projects in India today. Fully enforceable from March 2025, it mandates detailed simulation-based compliance studies for all RE, hybrid, and BESS projects connecting to the grid.
+        </p></div>
+<div class="article-block"><p>
+          The compliance boundary under this framework includes the generator pooling station, dedicated transmission line, and the complete RE + BESS system up to the Point of Interconnection (POI). Non-compliance risks delayed CTU and grid connection approvals, costly project redesigns, and commissioning risks.
+        </p></div>
+<div class="article-block"><h3>Required Compliance Studies</h3></div>
+<div class="article-block"><p>
+          All studies must use validated PSSE models (for RMS analysis) and PSCAD models (for Electromagnetic Transient behavior), based on OEM-provided data:
+        </p></div>
+<div class="article-block"><p>
+          Steady-State Studies
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Reactive Power Capability: Demonstrate reactive support capability across the 0.95–1.05 p.u. voltage range</li>
+    <li>Short Circuit Studies: Calculate Non-Conventional Source Fault Current (NCSFC) under three-phase and single-line-to-ground faults</li>
+    <li>Voltage Profile Assessment: Evaluate steady-state voltage at POI</li>
+
+      </ul>
+  
+        </div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-013-6a1dda3e.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><p>
+          Dynamic (Transient) Studies
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>LVRT &amp; HVRT: Low and High Voltage Ride-Through — remain connected during voltage sags and swells; mandatory for all projects at 33 kV and above</li>
+    <li>Frequency Ride-Through (FRT): Demonstrate stability across the 47.5 Hz to 52 Hz frequency range</li>
+    <li>Ramp Rate Compliance: Simulate plant response under ±10%/min active power ramping</li>
+    <li>AGC Set Point Control: Validate active power curtailment and response to AGC signals</li>
+    <li>Dynamic Reactive Power Support (DPRS): Verify Q-control, voltage control, and power factor control during disturbances</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><p>
+          Power Quality Studies
+        </p></div>
+<div class="article-block"><ul>
+        
+    <li>Harmonic Analysis: Comply with IEEE 519-2022 voltage and current distortion limits</li>
+    <li>DC Injection: Verify limits on net DC current exported to the grid</li>
+    <li>Flicker Study: Evaluate voltage flicker during irradiance variation or BESS switching events</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><h3>CERC Indian Electricity Grid Code (IEGC) 2023</h3></div>
+<div class="article-block"><p>
+          The IEGC 2023 is the operational rulebook for all entities connected to India's interstate transmission system. Key provisions affecting BESS and PCS design include:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-014-cd1f4064.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ul>
+        
+    <li>Nominal Frequency Band: Narrowed to 49.95–50.05 Hz for normal operation</li>
+    <li>Frequency Ride-Through Range: 47.5 Hz to 52 Hz</li>
+    <li>Free Governor Mode of Operation (FGMO): Replaces earlier RGMO; deadband of up to 0.03 Hz allowed for primary frequency response</li>
+    <li>Primary Reserve Ancillary Service (PRAS): Fast-acting frequency response</li>
+    <li>Secondary Reserve Ancillary Service (SRAS): Response within 30 seconds; full capacity deployment within 15 minutes, sustained for at least 30 minutes</li>
+    <li>Tertiary Reserve Ancillary Service (TRAS): Day-ahead market-based dispatch</li>
+    <li>BESS Market Access: By regulation, BESS can provide both SRAS and TRAS</li>
+    <li>Normative Availability: 90% Normative Availability Factor (NAPAFess) required</li>
+    <li>Round-Trip Efficiency Norm: 85% normative RTE (RTEess) for tariff calculations</li>
+
+      </ul>
+  
+        </div>
+<div class="article-block"><h3>Power Quality: IEEE 519 Compliance</h3></div>
+<div class="article-block"><p>
+          CEA explicitly mandates those harmonic current injections from generating stations — including BESS — must not exceed the limits specified in IEEE Standard 519. This is not merely a checkbox; harmonics from power electronics-based BESS can propagate through the network, causing transformer overheating, capacitor bank overstress, and protection system maloperations.
+        </p></div>
+<div class="article-block"><p>
+          Voltage distortion limits at the Point of Common Coupling (PCC) per IEEE 519-2022 are:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-015-c10497d7.jpg" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>CEA Uniform Protection Protocol (November 2024)</h3></div>
+<div class="article-block"><p>
+          Approved by CEA in November 2024, this protocol establishes standardized protection coordination for all grid users at 220 kV and above (132 kV in the Northeast). It covers BESS alongside thermal generators, renewable energy generators, substations, transmission lines, and HVDC terminals. The protocol ensures that protection systems prevent unintended tripping during disturbances, and that sufficient disturbance data is recorded for post-event analysis.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-016-c2905083.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>First Time Energization (FTEI) Process</h3></div>
+<div class="article-block"><p>
+          Under Clause 8(4) of IEGC 2023, any new BESS project must follow a formal First Time Energization and Integration (FTEI) procedure. This requires real-time SCADA data availability and favorable system conditions as assessed by the State Load Despatch Centre (SLDC), prior to physical integration. Metering schemes must be approved and comply with CEA (Installation and Operation of Meters) Regulations 2006 and subsequent amendments.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-017-941f46e1.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Compliance Verification: How It Works in Practice</h3></div>
+<div class="article-block"><p>
+          Grid compliance in India is not self-declared — it requires independent verification. The process involves:
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-018-42ee1d42.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><ol>
+        
+    <li>OEM-Validated Models: Developers must submit validated PSSE and PSCAD models to CTU (Central Transmission Utility) and relevant transmission licensees</li>
+    <li>Simulation Reports: Independent simulations conducted by both the system planner (Grid-India) and the system operator</li>
+    <li>Type Test Reports: Conducted in factory or laboratory environments</li>
+    <li>Statement of Compliance: Issued by an Accredited Certification Agency</li>
+    <li>Evaluation Reports: Cross-verified against submitted simulation data</li>
+    <li>Post-Commissioning Validation: Synchrophasor data used for performance validation and event analysis</li>
+
+      </ol>
+  
+        </div>
+<div class="article-block"><p>
+          Compliance verification must commence at least one year before physical interconnection, making early PCS vendor engagement — and procurement of OEM model data — a critical project milestone.
+        </p></div>
+<div class="article-block"><h3>India-Specific PCS Procurement Considerations</h3></div>
+<div class="article-block"><h3>The Grid-Forming Inflection Point</h3></div>
+<div class="article-block"><p>
+          India's grid is increasingly inverter-dominated as solar, wind, and BESS displace synchronous generators. This is reducing system inertia — the natural resistance to frequency changes provided by spinning generators. Grid-India's January 2026 proposal to mandate GFM capability for large BESS is a direct response to this structural shift. Developers evaluating PCS vendors today should ask: "Is this PCS GFM-capable, and what is the upgrade path?"
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-019-8211af69.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Domestic Manufacturing Context</h3></div>
+<div class="article-block"><p>
+          India's BESS ambitions are tied to the broader Manufacturing Linked Incentive (MLI) and VGF programs. With the Union Cabinet approving a VGF Scheme with an outlay for large-scale BESS in March 2024, project developers are also evaluating PCS vendors on domestic content and localization. While most PCS hardware is still imported, this is a rapidly evolving area for Indian industry.
+        </p></div>
+<div class="article-block"><h3>Climate and Environmental Derating</h3></div>
+<div class="article-block"><p>
+          India's ambient conditions — high temperatures, dust, humidity in coastal regions, and altitude in some Himalayan-adjacent sites — require PCS specifications that account for thermal derating. A PCS rated at full power at 25°C may deliver significantly less at 45°C if not properly specified. Robust design for extreme ambient conditions, as offered by some utility-scale PCS platforms, is a non-negotiable requirement for Indian deployments.
+        </p></div>
+<figure class="article-figure"><img class="article-image" src="assets/images/image-020-31df8bab.png" alt="Article content" loading="lazy"></figure>
+<div class="article-block"><h3>Conclusion</h3></div>
+<div class="article-block"><p>
+          Selecting the right PCS for a BESS project in India is no longer a purely technical exercise — it is a strategic decision that intersects with regulatory compliance, financial performance, and long-term grid evolution. The CEA's 2023 Amendment (enforceable from March 2025), the IEGC 2023, and emerging Grid-India proposals on grid-forming capability together constitute a robust — and increasingly demanding — compliance environment.
+        </p></div>
+<figure class="article-figure"><a href="https://neerajkumarsingal.com/" target="_blank" rel="noopener noreferrer"><img class="article-image" src="assets/images/image-021-289c852f.jpg" alt="Article content" loading="lazy"></a></figure>
+<div class="article-block"><p>
+          Developers and EPCs who engage with PCS selection early, secure OEM-validated simulation models, and design for both today's requirements and tomorrow's grid-forming mandate will be best positioned to commission projects on schedule and extract maximum value from India's growing BESS market.
+        </p></div>
+<hr class="pulse-article__divider">
+
+    <footer class="author-card">
+      <a href="https://www.linkedin.com/in/nksingal" class="author-card__avatar-link" target="_blank" rel="noopener noreferrer">
+        <img class="author-card__avatar" src="assets/images/author-avatar.jpg" alt="Neeraj Kumar Singal">
+      </a>
+      <div class="author-card__content">
+        <div class="author-card__header">
+          <div>
+            <a href="https://www.linkedin.com/in/nksingal" class="author-card__name" target="_blank" rel="noopener noreferrer">Neeraj Kumar Singal</a>
+            <span class="author-card__badge">Influencer</span>
+          </div>
+          <a href="https://www.linkedin.com/in/nksingal" class="btn-follow" target="_blank" rel="noopener noreferrer">Follow</a>
+        </div>
+        <p class="author-card__headline">Founder @ Semco Group, Entrepreneur, Lithium Battery Testing &amp; Assembly Solutions, Electric vehicles, Strategic Planning, Design &amp; Solution of BESS Manufacturing - Pack &amp; Container line, Cell, Pack &amp; Container Testing</p>
+        <p class="author-card__followers">58,813 followers</p>
+      </div>
+    </footer>
+
+    <section class="social-follow">
+      <h3 class="social-follow__title">For More Updates Follow Us</h3>
+      <nav class="social-follow__links" aria-label="Social media links"><a href="https://whatsapp.com/channel/0029VaAQVuiA89MpM5Qh3b0f" target="_blank" rel="noopener noreferrer">WhatsApp</a><span class="social-follow__sep">-</span><a href="https://www.facebook.com/semcouniversity" target="_blank" rel="noopener noreferrer">Facebook</a><span class="social-follow__sep">-</span><a href="https://www.instagram.com/semcouniversity/" target="_blank" rel="noopener noreferrer">Instagram</a><span class="social-follow__sep">-</span><a href="https://x.com/nksingal" target="_blank" rel="noopener noreferrer">Twitter</a><span class="social-follow__sep">-</span><a href="https://www.linkedin.com/in/nksingal/?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="social-follow__sep">-</span><a href="https://www.youtube.com/c/SemcoInfratechPvtLtd?trk=article-ssr-frontend-pulse_little-text-block" target="_blank" rel="noopener noreferrer">YouTube</a></nav>
+    </section>
+<div class="article-block"></div>
+      </div>
+
+      <div class="engagement-bar">
+        <button type="button" class="engagement-bar__btn" aria-label="Like">
+          <span>Like (96)</span>
+        </button>
+        <button type="button" class="engagement-bar__btn" aria-label="Comment"><span>Comment</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Repost"><span>Repost</span></button>
+        <button type="button" class="engagement-bar__btn" aria-label="Send"><span>Send</span></button>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Offline duplicate of <a href="https://www.linkedin.com/pulse/how-do-you-select-pcs-what-grid-codescompliance-matter-singal-3yi0c/" target="_blank" rel="noopener noreferrer">LinkedIn Pulse article</a></p>
+  </footer>
+</body>
+</html>

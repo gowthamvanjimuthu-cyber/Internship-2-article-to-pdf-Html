@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://www.linkedin.com/pulse/energy-pack-battery-line-production-process-analysis-singal-5iljc/",
+  "title": "Energy Pack Battery Line Production Process and Simulation Analysis",
+  "author": {
+    "name": "Neeraj Kumar Singal",
+    "url": "https://in.linkedin.com/in/nksingal",
+    "avatarUrl": "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM"
+  },
+  "publishedDate": "May 6, 2026",
+  "downloadedImages": {
+    "https://media.licdn.com/dms/image/v2/D5612AQGjIfTKy-lrXQ/article-cover_image-shrink_720_1280/B56Z38IDliGsAI-/0/1778051466003?e=2147483647&v=beta&t=6IMsmOZckrsQHJ6-q9CL6OYog7FS7RwXfO7buIet9-U": "images/cover.jpg",
+    "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM": "images/author-avatar.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQHkzWHdh1xdfQ/article-inline_image-shrink_400_744/B56Z33BUajIQAc-/0/1777965812807?e=2147483647&v=beta&t=uV3VVr37LWuZnY-oJTsTBbhJLSpmeO5lCcqrpMh4Muk": "images/image-003-824510a4.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQHgH7hV6WGUQQ/article-inline_image-shrink_400_744/B56Z325j7TG0AY-/0/1777963779898?e=2147483647&v=beta&t=fEC79Y1x68kGr-ODYLyqB_0tIzuffj48KO0DI5d3uYM": "images/image-004-f529d4f7.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFIDOFPWJVGxg/article-inline_image-shrink_400_744/B56Z326b73KoAc-/0/1777964010030?e=2147483647&v=beta&t=AWNv-lHAXUenAlhQYGrCR23SS2blCnNVxvybi7EKWYw": "images/image-005-df50ffd4.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQHuRERgrh4LsA/article-inline_image-shrink_400_744/B56Z327_txH4AY-/0/1777964417328?e=2147483647&v=beta&t=Mpodum7fOTLAoUazR1OuCsJ6Vy61zEwCZWqZg2RwDJ0": "images/image-006-a64d5c52.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQGYy1H4TsP_lA/article-inline_image-shrink_400_744/B56Z3256BIKQAc-/0/1777963869493?e=2147483647&v=beta&t=IsXieSCVUPE7iTLgoichRY2NJrpiAD7ZUgtiBCT2kUQ": "images/image-007-9bb1f715.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQH0Ijkmea-9Ag/article-inline_image-shrink_400_744/B56Z326.AqJwAg-/0/1777964148697?e=2147483647&v=beta&t=IMxF8Txnx6tMF-lzZ4IlRDw_nX8Mmtat36IJSTv2kFw": "images/image-008-936ac03d.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFPu3z9t2kI-A/article-inline_image-shrink_400_744/B56Z38D05AIkAY-/0/1778050355354?e=2147483647&v=beta&t=9WrWYDzbdBXMH3Rpn3vIK2_Oo_JzTMNHnlRJN22DH4U": "images/image-009-f7b90a3a.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE1-YNccDW0TA/article-inline_image-shrink_400_744/B56Z37wFVqKQAY-/0/1778045186981?e=2147483647&v=beta&t=2bSS1R5HaAVTMi3RP315XVCDKx6FAERwJlxiyRFe9gY": "images/image-010-ccfe149e.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE0gNl1eXuamA/article-inline_image-shrink_400_744/B56Z37vHbhG0AY-/0/1778044932183?e=2147483647&v=beta&t=8SB5ENPTFSql4OnMFdxKrJzZEuImxK7gGN7R4K4KD00": "images/image-011-2d29ea7f.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFR08eBZ1n2Ag/article-inline_image-shrink_400_744/B56Z37wSi.IQAY-/0/1778045241160?e=2147483647&v=beta&t=Kdt00HUjWe0qf6nbi3OBqMHpd7yt_R_PixaYj6aSsjU": "images/image-012-fc1995ae.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHj_GMeOAa4Gg/article-inline_image-shrink_400_744/B56Z37vVBxJ0AY-/0/1778044987960?e=2147483647&v=beta&t=PYf4BNmrzc0IROU0eBBhO9KqO_iRJ0Xrz3OMu5zqqs8": "images/image-013-75676acb.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGUGK7SpnmWww/article-inline_image-shrink_400_744/B56Z37.iEuH8AY-/0/1778048977138?e=2147483647&v=beta&t=Y-oG0q9vOhSg8wyZskqxUbafjhCnPPHOSb5dfe0R4sU": "images/image-014-42b7c5b6.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHkhrDr2imV-w/article-inline_image-shrink_400_744/B56Z38Ay8rIYAY-/0/1778049570902?e=2147483647&v=beta&t=Kur7SpO2wjcCmew0qUvQWFFlHGJt7sqXT9WqSJKOc24": "images/image-015-88bba4b7.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQF55gIlmlWs5Q/article-inline_image-shrink_400_744/B56Z38DjlEGoAY-/0/1778050284329?e=2147483647&v=beta&t=rUUBBM7fcdmvhpPPT-_4xJHTS-tStsrPUg3oWv1q_wg": "images/image-016-33773197.jpg"
+  },
+  "generatedAt": "2026-05-22T04:48:38.595Z"
+}

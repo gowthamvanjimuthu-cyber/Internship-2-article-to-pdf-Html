@@ -1,0 +1,33 @@
+{
+  "sourceUrl": "https://www.linkedin.com/pulse/common-problems-energy-storage-design-neeraj-kumar-singal-xbdnc/",
+  "title": "Common Problems in Energy Storage Design",
+  "author": {
+    "name": "Neeraj Kumar Singal",
+    "url": "https://in.linkedin.com/in/nksingal",
+    "avatarUrl": "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM"
+  },
+  "publishedDate": "May 14, 2026",
+  "downloadedImages": {
+    "https://media.licdn.com/dms/image/v2/D5612AQEZmvDH55gnxQ/article-cover_image-shrink_720_1280/B56Z4k9vgzIEAQ-/0/1778736626052?e=2147483647&v=beta&t=qLCoMnqhEWzA0QdgAhjJeWdhzeRM6ri2b5DgAUmn8RM": "images/cover.png",
+    "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM": "images/author-avatar.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQEs6PtI3VVJyg/article-inline_image-shrink_1000_1488/B56Z4f.EENK0AI-/0/1778652824071?e=2147483647&v=beta&t=pIB2EgqZqi6wjMmkXvrz1sc0qwgyXJDGi3YsXGM2msE": "images/image-003-bcd0263a.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE0wLXySf87eQ/article-inline_image-shrink_400_744/B56Z4a87E4JIAY-/0/1778568649350?e=2147483647&v=beta&t=Ta1HGebOy2NH4XB-G7XcKEzbxROVWRYJ3JDC7pyTZEI": "images/image-004-8b20ce48.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHpslUmqnbNLw/article-inline_image-shrink_1500_2232/B56Z4gBsrtKUAQ-/0/1778653776855?e=2147483647&v=beta&t=TZF_ZzUWVG3QlwMe9-Yg4bbMC1cXolK4l3j5Frqknr4": "images/image-005-937b2d93.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHQII5ymeC6Cg/article-inline_image-shrink_400_744/B56Z4gHxyRHEAM-/0/1778655378014?e=2147483647&v=beta&t=nqTzlzoNR_wyn0S1077ihyBOx-ZH9IYrYVLszCvYC-Q": "images/image-006-3758dba4.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFC-f2fQ0BgCw/article-inline_image-shrink_400_744/B56Z4gLm0_HEAM-/0/1778656375632?e=2147483647&v=beta&t=OmBkBbL9gziFvtgwpFLze6ltblPMdgGqACdQxSTk428": "images/image-007-88153b13.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGLzZdcsaQa6A/article-inline_image-shrink_400_744/B56Z4bC6_IK0AY-/0/1778570220373?e=2147483647&v=beta&t=dP5ivnY7-qqWl5K1pG317H8ZZ3cqoyue_WSTeGJyjrQ": "images/image-008-e8b793f1.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQH29ms1Poj1MA/article-inline_image-shrink_400_744/B56Z4gPTJUGUAM-/0/1778657347997?e=2147483647&v=beta&t=p-XGQFriV7gu1gjtpzIZ0rSvirvUu647ZjFwNbolK8M": "images/image-009-80316ab1.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGi-zTCYaY0Lg/article-inline_image-shrink_400_744/B56Z4gUlUgGsAQ-/0/1778658732834?e=2147483647&v=beta&t=K6KTa1F4mkoiB3OrpGxwH-TLgf6t4SfC0EK8oXI2MLI": "images/image-010-bec454e7.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQEMf6IW7lYuvQ/article-inline_image-shrink_400_744/B56Z4gVQKYIkAM-/0/1778658907520?e=2147483647&v=beta&t=Grs8Inx68XPsLdYgqhSeI--F0hiJ7a-_IRUwcjdJ4iM": "images/image-011-2ae85eff.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQEa787uv_vn2w/article-inline_image-shrink_400_744/B56Z4bDle4KoAY-/0/1778570396327?e=2147483647&v=beta&t=_FUBOrphB-ODnALz-llodUC2Ze-Qy_VomE4VsVqDCfw": "images/image-012-80abb9b8.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQG7VP4IQRqMtA/article-inline_image-shrink_400_744/B56Z4lPntiJ0AQ-/0/1778741320766?e=2147483647&v=beta&t=lSlZh7ao_90CiQJV235ROc2R8ZTCw5DJaAMEh0EoDM0": "images/image-013-d04d3aa9.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFklr259ky-Rg/article-inline_image-shrink_1500_2232/B56Z4bGtzDKMAU-/0/1778571214587?e=2147483647&v=beta&t=Ad2-o5i56-C7CsJttPQnKADSPW_BvC1EsWyL7_Zgq8M": "images/image-014-ee7ff464.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQEZ7oXeroyr4Q/article-inline_image-shrink_400_744/B56Z4lSD_eHwAM-/0/1778741959291?e=2147483647&v=beta&t=IIanLpavXoOHYdAqp5o5jXNWLK9n4QC3SX16yv-nKmo": "images/image-015-15989e5f.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQETWQ9YVEO-3Q/article-inline_image-shrink_400_744/B56Z4lTpvzJkAM-/0/1778742374435?e=2147483647&v=beta&t=6SD_8i88OiSrHyPO2r8oQmGmQUZln8iZwb2-5QwsKMk": "images/image-016-53a4bd9f.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHzt5rwUq_fzw/article-inline_image-shrink_400_744/B56Z4lXzhBHEAQ-/0/1778743460362?e=2147483647&v=beta&t=_XhyVH9WsExFiR40ryh0BQk_9muOB1XFRTN6vB6Uzi0": "images/image-017-f55342f6.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQF4NH8N6DB1kQ/article-inline_image-shrink_400_744/B56Z4lcyZ1IYAM-/0/1778744771023?e=2147483647&v=beta&t=bk42ty9T9eZ8-oDsTOD0BNah8SADeKxKBsvJ3p4oDJE": "images/image-018-839b20a1.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHBM2xnnbjWHg/article-inline_image-shrink_400_744/B56Z4lg8UNHwAM-/0/1778745858806?e=2147483647&v=beta&t=5kqt4BIH-wZnrl4pAIMGbEyUsPPqpypb8FuSIp2ytFE": "images/image-019-f9edf22a.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGTVg8sDrcL3w/article-inline_image-shrink_400_744/B56Z4lhXmVH8AQ-/0/1778745965169?e=2147483647&v=beta&t=494QB5lXkeBXpghTEzPGVL_DYmu3EQFkiL3xqJIctPA": "images/image-020-f6f97ef0.jpg"
+  },
+  "generatedAt": "2026-05-22T04:48:16.170Z"
+}

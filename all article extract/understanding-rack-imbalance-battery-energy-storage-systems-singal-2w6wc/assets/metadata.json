@@ -1,0 +1,26 @@
+{
+  "sourceUrl": "https://www.linkedin.com/pulse/understanding-rack-imbalance-battery-energy-storage-systems-singal-2w6wc/",
+  "title": "Understanding Rack Imbalance in Battery Energy Storage Systems (BESS): Causes, Impacts, and Solutions",
+  "author": {
+    "name": "Neeraj Kumar Singal",
+    "url": "https://in.linkedin.com/in/nksingal",
+    "avatarUrl": "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM"
+  },
+  "publishedDate": "Sep 4, 2025",
+  "downloadedImages": {
+    "https://media.licdn.com/dms/image/v2/D5612AQHYPd98gnfN4g/article-cover_image-shrink_720_1280/B56ZkUR3QTHcAU-/0/1756981861561?e=2147483647&v=beta&t=-ceyTofDtTNK3ffmx9BabjZ_GWhkO7CnGExwvz2gbGI": "images/cover.png",
+    "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM": "images/author-avatar.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQEyVmLsORLzJw/article-inline_image-shrink_400_744/B56ZkTTp_iHkAY-/0/1756965552231?e=2147483647&v=beta&t=fqS2drtwLCu8c68tUsf8IeP2gSv8Qxbgx1Wxz1i07Lk": "images/image-003-26b69a2e.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQExWvX4f0FI0w/article-inline_image-shrink_1000_1488/B56ZkTWKSNH8AQ-/0/1756966202627?e=2147483647&v=beta&t=xUyrgjPYiJZ8u_GjlSv75HD4d5ltnI3pXm2GHiOU3ww": "images/image-004-3f92dd82.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGc3s3aMph4SA/article-inline_image-shrink_1000_1488/B56ZkTWZteHIAQ-/0/1756966275128?e=2147483647&v=beta&t=NNrzMA2q0_9w3vbYAbL6AdwkGbYbBKI0rbjIqIi9jeA": "images/image-005-ced710de.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQEiqWoXFzppbA/article-inline_image-shrink_1000_1488/B56ZkUCjYpHkAU-/0/1756977838238?e=2147483647&v=beta&t=VTMZohUnp26Dj949BiKjbJK7pK4swN6J9Xzy2qFYR6s": "images/image-006-1a39df9d.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQFA35lL6Fsu1A/article-inline_image-shrink_1000_1488/B56ZkUDlIqHkAc-/0/1756978108350?e=2147483647&v=beta&t=RZN2SfmvE422s3UpD5wxGA3Nfg80kgRGMWZ34zf4IQQ": "images/image-007-804b43a7.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGQjdEUtXfECg/article-inline_image-shrink_1500_2232/B56ZkUGi31IAAU-/0/1756978887092?e=2147483647&v=beta&t=jEAWifkQdZ8E8W2MOP2RZQFTI3gYTkU56llQ3DU9s80": "images/image-008-650c97c2.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQG2-_Kngld0KA/article-inline_image-shrink_400_744/B56ZkUJxAsHIAY-/0/1756979730208?e=2147483647&v=beta&t=-zR7T0pIJClxUvVFdaOnHZdMSnaVmDez1wFXFsADgX0": "images/image-009-46083436.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE5wPkNfKozWw/article-inline_image-shrink_1000_1488/B56ZkUKYs_HkAY-/0/1756979891965?e=2147483647&v=beta&t=ceL6DNHOxkCaocEfB2UtDUdwCOZtOMQHeR0fk462Na4": "images/image-010-0a668fe2.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGsRLFnTVfIog/article-inline_image-shrink_400_744/B56ZkULoS8HAAY-/0/1756980231827?e=2147483647&v=beta&t=L1nvAhA6JpqAmR71fyZ3wc-ap6LUAsvp4S7p4-qlR0U": "images/image-011-32c6d4e2.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQGeAHyDUOdPtQ/article-inline_image-shrink_1000_1488/B56ZkUMmypHMAY-/0/1756980473520?e=2147483647&v=beta&t=sk2e6HdiQZZhrTrxeqLJC3O8QStdw4L4Sm_bcVK58Io": "images/image-012-086983a3.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQHIUCJ106vdmw/article-inline_image-shrink_1000_1488/B56ZkUNHIdHAAc-/0/1756980608240?e=2147483647&v=beta&t=YL9eNzBUGRFhslfBxsG71p3dPiLd-oldGCf942wemu4": "images/image-013-1261d652.png"
+  },
+  "generatedAt": "2026-05-22T04:56:35.191Z"
+}

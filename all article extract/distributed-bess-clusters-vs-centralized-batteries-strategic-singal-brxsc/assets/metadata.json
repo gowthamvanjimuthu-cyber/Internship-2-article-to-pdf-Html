@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://www.linkedin.com/pulse/distributed-bess-clusters-vs-centralized-batteries-strategic-singal-brxsc/",
+  "title": "Distributed BESS Clusters vs. Centralized Megawatt-Scale Batteries: Strategic Comparison and Deployment Considerations",
+  "author": {
+    "name": "Neeraj Kumar Singal",
+    "url": "https://in.linkedin.com/in/nksingal",
+    "avatarUrl": "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM"
+  },
+  "publishedDate": "Nov 20, 2025",
+  "downloadedImages": {
+    "https://media.licdn.com/dms/image/v2/D5612AQHTJS9g51mpxg/article-cover_image-shrink_720_1280/B56Zqg2XdKKwAI-/0/1763635212078?e=2147483647&v=beta&t=lCX8gOzj_AmCcsoTaVwJgl8MmS4I2OUHz5KUdjO4lxU": "images/cover.png",
+    "https://media.licdn.com/dms/image/v2/D5603AQEygSnnVvADfQ/profile-displayphoto-scale_400_400/B56ZpZJQ5rHAAk-/0/1762432192845?e=2147483647&v=beta&t=srOf_IDWUw_KpOza5AZC-K6i4xmyHRe_XCOUj10wHhM": "images/author-avatar.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQEBx8QW2P9mzQ/article-inline_image-shrink_1500_2232/B56ZqgJligIcAY-/0/1763623459917?e=2147483647&v=beta&t=cu2f-iSFR5x-EfQir0e9VqO2Vj_NVjictx8LBrq9SrE": "images/image-003-7502049b.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQES1RcHAJ2kkA/article-inline_image-shrink_1500_2232/B56ZqgNDmUJYAU-/0/1763624369188?e=2147483647&v=beta&t=XBRl3DTqvy2M13jqroLGzARlxZoe1KHeAF_3nA0sArQ": "images/image-004-f9d65092.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE5slMDdpLvSQ/article-inline_image-shrink_400_744/B56ZqgMf3pJYAY-/0/1763624224806?e=2147483647&v=beta&t=8r29vP7suXnOzs75_oKAt-Km2NuncOXLcs8P_p2DYKw": "images/image-005-99b3db68.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQGBxV-Vn40t6g/article-inline_image-shrink_1000_1488/B56ZqghdCZJUAQ-/0/1763629720652?e=2147483647&v=beta&t=y0N1Cg3lXSNMCBALr6VMvdZ6sQfJ_t--wQkhCJr2w88": "images/image-006-46dbd668.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQFHLGPXlZl0Jg/article-inline_image-shrink_1000_1488/B56ZqglIcSKAAU-/0/1763630685509?e=2147483647&v=beta&t=-E4KPBRCI6GmIS2QzpSGC2yXNAVTQlshIkX4FMf_Zho": "images/image-007-09430b2a.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE3_rfRbKu-jQ/article-inline_image-shrink_1000_1488/B56ZqgptisI4AQ-/0/1763631881751?e=2147483647&v=beta&t=eIIk_pSSUeFAE-oDHKTQYzAIFGTVeTk9EXvd1L-ql4w": "images/image-008-21a7f964.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQH_hdL8FXM9vg/article-inline_image-shrink_1500_2232/B56ZqgoyfhJoAY-/0/1763631639230?e=2147483647&v=beta&t=R6n0sG66-zgQrG5zYB2knczVUwDQT5ZQV4rlwFUdDzw": "images/image-009-2bd9b65d.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHIgtB6D63Hug/article-inline_image-shrink_400_744/B56ZqgqKXcG0AY-/0/1763631999637?e=2147483647&v=beta&t=fFUuCPkCnJbtQmvZl9L4wQuZN1GlXsAWjP6h8n2r7jQ": "images/image-010-bd9d8de5.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQHpQh-hzDZAdQ/article-inline_image-shrink_1000_1488/B56ZqgtOgjI4AQ-/0/1763632809793?e=2147483647&v=beta&t=09e7BJjoFO3qTxmLao0175lUpcpQsxL21nT_6zbSYo8": "images/image-011-ee42bdf7.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQH8Ae1EGxFGyA/article-inline_image-shrink_1000_1488/B56ZqgrYUgG4AQ-/0/1763632318616?e=2147483647&v=beta&t=7Xy2HTFVfOmNMcfBnfWjNya2SC3oJVyPJm2DcW9wshI": "images/image-012-83b0085b.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQF-80vazYosJA/article-inline_image-shrink_1500_2232/B56Zqgvn5DKwAU-/0/1763633437850?e=2147483647&v=beta&t=UuVg37z5E-cxQ5QnoF691RCfUpULAxwk0Cv3q2P5uLU": "images/image-013-bf0a4f85.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQE0KxfSdGX1kg/article-inline_image-shrink_1500_2232/B56ZqguIueHQAU-/0/1763633041891?e=2147483647&v=beta&t=50A5lpjHYOk8PBzR67V7nbYWe9n30S-xDBax5kxEVyA": "images/image-014-e2a5dbe2.png",
+    "https://media.licdn.com/dms/image/v2/D5612AQF4O87u2O7RxA/article-inline_image-shrink_1000_1488/B56ZqgwCHhHkAQ-/0/1763633538062?e=2147483647&v=beta&t=UvI71Zt-FfCnawkQx7_sE5Yidq7E0wE7s-coK5FPEhU": "images/image-015-7c9c5702.jpg"
+  },
+  "generatedAt": "2026-05-22T04:54:27.557Z"
+}
