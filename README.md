@@ -3,7 +3,7 @@
 A powerful hybrid tool designed to instantly convert online articles into beautifully formatted, downloadable PDF and HTML documents. This project combines a robust Python backend with a sleek, client-side web interface.
 
 🔗 **Live Demo (MVP):** 
- https://gowthamk-dev.github.io/Internship-2-article-to-pdf-Html/
+ https://gowthamvanjimuthu-cyber.github.io/Internship-2-article-to-pdf-Html/
  
 🎯 **Project Goal**
 To provide a seamless way for readers and researchers to archive web content in high-quality formats, removing ads and clutter while preserving essential typography and structure.
