@@ -5,8 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Article Converter – PDF & HTML | Neeraj Kumar Singal</title>
   <meta name="description" content="Paste any article URL and instantly download it as a beautifully formatted PDF or HTML document. Free, no sign-up required." />
+  <meta name="keywords"
+content="article to pdf, article to html, pdf converter, html converter, article downloader, github pages project, pdf generator, html generator">
   <meta property="og:title" content="Article to PDF & HTML Converter" />
-  <meta property="og:description" content="Convert any article to downloadable PDF or HTML instantly." />
+ <meta property="og:description" content="Convert any article to downloadable PDF or HTML instantly." />
+ <link rel="canonical" href="https://gowthamk-dev.github.io/Internship-2-article-to-pdf-Html/" />
+ <meta property="og:image" content="https://gowthamk-dev.github.io/Internship-2-article-to-pdf-Html/preview.png" />
+  <meta property="og:type" content="website" />
+<meta property="og:site_name" content="Article Converter" />
+ <meta property="og:url" content="https://gowthamk-dev.github.io/Internship-2-article-to-pdf-Html/" />
+ <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0e1117">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
@@ -476,6 +486,20 @@ window.addEventListener('load', () => {
       .stats-row { gap: 20px; }
     }
   </style>
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebApplication",
+  "name":"Article to PDF & HTML Converter",
+  "url":"https://gowthamk-dev.github.io/Internship-2-article-to-pdf-Html/",
+  "applicationCategory":"UtilityApplication",
+  "operatingSystem":"Any",
+  "author":{
+    "@type":"Person",
+    "name":"Gowtham"
+  }
+}
+</script>
 </head>
 <body>
 <div class="page">
@@ -494,9 +518,13 @@ window.addEventListener('load', () => {
 
   <!-- Hero -->
   <section class="hero">
-    <div class="hero-pill">
-      <span class="dot"></span> Free &amp; instant — no sign-up needed
-    </div>
+ <div class="hero-pill">
+  <span style="color:var(--success);font-weight:600;">
+    ✓ Live on GitHub Pages
+  </span>
+  <span class="dot"></span>
+  <span>Free & instant — no sign-up needed</span>
+</div>
     <h1>Turn any article into<br>a perfect document</h1>
     <p class="hero-sub">
       Paste a public article URL and download it as a beautifully formatted
@@ -505,7 +533,7 @@ window.addEventListener('load', () => {
 
     <div class="stats-row">
       <div class="stat">
-        <div class="stat-num">316</div>
+        <div class="stat-num">316+</div>
         <div class="stat-label">Articles in Repo</div>
       </div>
       <div class="stat">
@@ -573,12 +601,39 @@ window.addEventListener('load', () => {
   <section class="articles-section">
     <p class="section-label">Project Repository</p>
     <div class="article-count-card">
-      <div class="article-icon">📚</div>
-      <div class="article-info">
-        <h3>316 Articles by Neeraj Kumar Singal</h3>
-        <p>Battery technology, EV, BESS, lithium-ion, sodium-ion, thermal management, recycling, manufacturing, and policy — all archived as PDF &amp; HTML in the repository.</p>
-      </div>
+  <div class="article-icon">📚</div>
+
+  <div class="article-info">
+    <h3>316 Articles by Neeraj Kumar Singal</h3>
+    <p>
+      Battery technology, EV, BESS, lithium-ion, sodium-ion,
+      thermal management, recycling, manufacturing, and policy —
+      all archived as PDF & HTML in the repository.
+    </p>
+
+    <div style="margin-top:16px;color:var(--text-2);font-size:13px;">
+      ✓ Hosted on GitHub Pages<br>
+      ✓ Open-source repository<br>
+      ✓ Browser-based processing
+      <div style="margin-top:18px;">
+  <a href="https://github.com/gowthamk-dev/Internship-2-article-to-pdf-Html"
+     target="_blank"
+     style="
+        display:inline-block;
+        padding:10px 18px;
+        border-radius:8px;
+        text-decoration:none;
+        background:linear-gradient(135deg,var(--accent),var(--accent2));
+        color:white;
+        font-size:13px;
+        font-weight:600;">
+     ⭐ View Repository
+  </a>
+</div>
     </div>
+
+  </div>
+</div>
   </section>
 
   <!-- Tech Stack -->
@@ -586,9 +641,9 @@ window.addEventListener('load', () => {
     <p class="section-label">Tech Stack</p>
     <div class="tech-grid">
       <div class="tech-item">
-        <div class="tech-icon">🐍</div>
-        <div class="tech-name">Python / Flask</div>
-        <div>Local backend</div>
+        <div class="tech-icon">⚙️</div>
+        <div class="tech-name">JavaScript</div>
+        <div>Browser logic</div>
       </div>
       <div class="tech-item">
         <div class="tech-icon">📄</div>
@@ -607,21 +662,29 @@ window.addEventListener('load', () => {
       </div>
       <div class="tech-item">
         <div class="tech-icon">📊</div>
-        <div class="tech-name">ReportLab</div>
-        <div>Server-side PDF</div>
-      </div>
-      <div class="tech-item">
-        <div class="tech-icon">🌐</div>
         <div class="tech-name">GitHub Pages</div>
         <div>Static hosting</div>
+      </div>
+      <div class="tech-item">
+       <div class="tech-icon">⚡</div>
+       <div class="tech-name">GitHub Actions</div>
+       <div>CI/CD Deployment</div>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>Built by <a href="https://github.com/gowthamk-dev" target="_blank">gowthamk-dev</a> &nbsp;|&nbsp; <a href="https://github.com/gowthamk-dev/Internship-2-article-to-pdf-Html" target="_blank">View on GitHub</a></p>
-    <p style="margin-top:6px;">For local use with full features, run the Flask server inside the <code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;">Model/</code> folder</p>
-  </footer>
+  <p>
+    Built by
+    <a href="https://github.com/gowthamk-dev" target="_blank">gowthamk-dev</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/gowthamk-dev/Internship-2-article-to-pdf-Html" target="_blank">View on GitHub</a>
+  </p>
+
+  <p style="margin-top:6px;">
+    Runs entirely in the browser using JavaScript, Readability, DOMPurify and jsPDF.
+  </p>
+</footer>
 
 </div>
 
