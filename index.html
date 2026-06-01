@@ -11,7 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
   <!-- Client-side PDF generation -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+  <script>
+window.addEventListener('load', () => {
+    console.log("jsPDF:", window.jspdf);
+});
+</script>
+  <script src="https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
   <!-- Mozilla Readability for article extraction -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/readability/0.5.0/Readability.min.js"></script>
   <!-- DOMPurify for sanitization -->
